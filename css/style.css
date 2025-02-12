@@ -1,0 +1,71 @@
+* {
+    font-family: 'Roboto', sans-serif !important;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1681px;
+}
+
+.navbar-toggler {
+    outline: none !important; 
+    box-shadow: none !important; 
+    border-width: 0px !important;
+    border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+    outline: none !important; 
+    box-shadow: none !important; 
+
+}
+
+
+/* Позиционируем псевдоэлементы для создания крестика */
+.navbar-toggler {
+    position: relative;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    transition: opacity 0.3s ease; /* Плавное исчезновение стандартной иконки */
+}
+
+/* Создаем крестик с помощью псевдоэлементов */
+.navbar-toggler::before,
+.navbar-toggler::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background-color: #000; /* Цвет крестика */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Скрываем крестик по умолчанию */
+    transition: all 0.3s ease;
+}
+
+/* Поворачиваем псевдоэлементы для создания крестика */
+.navbar-toggler::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.navbar-toggler::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* Анимация при открытом меню */
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    opacity: 0; /* Прячем стандартную иконку */
+}
+
+.navbar-toggler[aria-expanded="true"]::before,
+.navbar-toggler[aria-expanded="true"]::after {
+    opacity: 1; /* Показываем крестик */
+}
