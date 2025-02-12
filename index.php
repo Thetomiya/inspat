@@ -15,16 +15,16 @@
     <div class="container">
     <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid p-0">
+        <div class="container-fluid  p-0">
             <a class="navbar-brand" href="index.php"><img src="img/logo.svg" alt="logo.svg"></a>
 
             <!-- Контейнер buttons-wrap с изменяемым порядком -->
             <div class='d-flex buttons-wrap order-lg-2'>
                 <div class="navbar-switches p-0 d-flex justify-content-between">
-                    <div class="theme-switch-container me-2 align-content-center">
+                    <div class="theme-switch-container ps-3 pe-3 align-content-center">
                         <img src="img/theme-switch.svg" alt="theme-switch.svg">
                     </div>
-                    <div class="email-btn-container me-2 align-content-center">
+                    <div class="email-btn-container align-content-center">
                         <img src="img/mail-ico.svg" alt="mail-ico.svg">
                     </div>
                 </div>
@@ -34,19 +34,37 @@
             </div>
 
             <!-- Блок collapse с изменяемым порядком -->
-            <div class="collapse row navbar-collapse justify-content-center justify-content-lg-between order-lg-1" id="navbarNavAltMarkup">
-                <div class="row flex-column flex-lg-row p-0">
-                    <div class="navbar-nav p-0 col d-flex text-center justify-content-center">
-                        <a class="nav-link" href="#">Проекты</a>
-                        <a class="nav-link" href="#">О нас</a>
+            <div class="collapse row drop-menu navbar-collapse justify-content-center justify-content-lg-between order-lg-1" id="navbarNavAltMarkup">
+                <div class="row flex-column  flex-lg-row p-0">
+                    <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
+                        <a class="nav-link " href="#">Проекты</a>
+                        <a class="nav-link " href="#">О нас</a>
                         <a class="nav-link" href="#">Связаться</a>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-</header>
+    </header>
     </div>
+
+    <main>
+    <section class="hero">
+        <!-- Герой-секция с картинкой -->
+        <div class="hero-content">
+            <h1>Добро пожаловать!</h1>
+            <p>Это пример герой-секции</p>
+        </div>
+    </section>
+
+    <section class="content">
+        <!-- Остальной контент -->
+        <h2>Дополнительный контент</h2>
+        <p>Этот контент появится после прокрутки.</p>
+    </section>
+    </main>
+
+
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
