@@ -43,7 +43,6 @@ a {
     background-color: #fff;
 }
 
-
 /* Позиционируем псевдоэлементы для создания крестика */
 .navbar-toggler {
     position: relative;
@@ -60,7 +59,7 @@ a {
     position: absolute;
     width: 24px;
     height: 2px;
-    background-color: #000; /* Цвет крестика */
+    background-color: #000; 
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -89,15 +88,40 @@ a {
 
 
 /* Герой-секция */
+
+.h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.h5 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.h6 {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.p-title {
+    font-size: 1.125rem;
+}
+
 .hero {
     height: calc(100vh - 72px); /* 100% высоты вьюпорта минус высота шапки */
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: start;
+    text-align: start;
     color: #fff;
-    background-image: url('your-image.jpg'); /* Замените на путь к вашей картинке */
+    background-image: url('../img/temp-hero.png.'); /* Замените на путь к вашей картинке */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -110,7 +134,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Затемнение фона */
+    background-color: #4444449a; /* Затемнение фона */
 }
 
 .hero-content {
@@ -119,16 +143,91 @@ a {
 }
 
 .hero h1 {
-    font-size: 3rem;
     margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 1.5rem;
+    font-size: 1.125rem;
 }
 
 /* Остальной контент */
 .content {
     padding: 20px;
     background-color: #f9f9f9;
+}
+
+.btns-wrap {
+padding-top: 20px;
+}
+
+.hero-btn-primary {
+    padding: 12px 24px;
+    color: #000000;
+    background: #fff;
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+
+.hero-btn-secondary {
+    padding: 12px 24px;
+    color: #ffffff;
+    background: #ffffff00;
+    border: 1px solid #fff;
+    font-size: 16px;
+    margin-left: 14px;
+}
+
+@media screen and (max-width: 332px) {
+    .hero-btn-primary {
+        padding: 12px 12px;
+
+    }
+    
+    .hero-btn-secondary {
+        padding: 12px 12px;
+        margin-left: 8px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .h1 {
+        font-size: 2.5rem;
+    }
+    .h2 {
+        font-size: 2rem;
+    }
+    .h5 {
+        font-size: 1.25rem;
+    }
+    .h6 {
+
+        font-size: 1.125rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .p-title {
+        font-size: 1rem;
+    }
+}
+
+.page-block {
+    padding: 112px 0px;
+}
+
+.page-block-img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.project-card-preview {
+    color: #000;
+}
+
+.project-card-preview img {
+    max-height: 240px;
+    object-fit: cover;
+    width: 100%;
 }
