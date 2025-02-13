@@ -35,8 +35,8 @@
             <div class="collapse row drop-menu navbar-collapse justify-content-center justify-content-lg-between order-lg-1" id="navbarNavAltMarkup">
                 <div class="row flex-column  flex-lg-row p-0">
                     <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
-                        <a class="nav-link " href="#">Проекты</a>
-                        <a class="nav-link " href="#">О нас</a>
+                        <a class="nav-link" href="#">Проекты</a>
+                        <a class="nav-link mx-0 mx-lg-4" href="#">О нас</a>
                         <a class="nav-link" href="#">Связаться</a>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                     <h2 class="h2">Опыт и знания в различных типах архитектурных проектов</h2>
                     <p class="p-title">Наше бюро имеет обширный опыт проектирования жилых, коммерческих и сложных промышленных объектов. Мы применяем инновационные подходы и стремимся к выдающимся результатам, учитывая уникальные запросы каждого клиента.</p>
                 </div>
-                <img src="img/temp-img.png" class="page-block-img col-12 col-lg-6">
+                <img src="img/temp-img.png" class="page-block-img col-12 col-lg-8">
             </div>
         </section>
 
@@ -137,16 +137,133 @@
                         <div class="project-card-preview">
                             <img src="img/temp-4.png" class="img-fluid mb-4" alt="image-preview">
                             <h6 class="h6 mb-4">Промышленные объекты</h5>
-                        
                         </div>
                     </div>
-                    
                 </div>
-
             </div>
         </section>
         
+        <section class="page-block">
+            <div class="container ">
+                <div class="row align-items-center justify-content-between">
+                    <div class="d-flex flex-column pe-lg-5 col-12 col-lg-6">
+                        <h2 class="h2">Наши достижения говорят сами за себя</h2>
+                        <p class="p-title">За более чем 15 лет работы мы успешно реализовали свыше 200 проектов различного масштаба и назначения. Наш профессионализм и стремление к качеству были отмечены многочисленными наградами и признанием в отрасли.</p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="row ms-2">
+                            <div class="advantages-wrap col-12  col-md-6">
+                                <p class="advantage-title">200+</p>
+                                <p class="h6">Реализованных проектов</p>
+                            </div>
+                            <div class="advantages-wrap col-12  col-md-6">
+                                <p class="advantage-title">150 км²</p>
+                                <p class="h6">Созданного пространства</p>
+                            </div>
+                            <div class="advantages-wrap col-12  col-md-6">
+                                <p class="advantage-title">15+</p>
+                                <p class="h6">Лет разработки проектов</p>
+                            </div>
+                            <div class="advantages-wrap col-12  col-md-6">
+                                <p class="advantage-title">101%</p>
+                                <p class="h6">Довольных клиентов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-block">
+            <div class="container ">
+                <div class="row">
+                <h2 class="h2">Отзывы клиентов</h2>
+                <p class="p-title mb-5">Их внимание к деталям не знает себе равных</p>
+                <div class="review-container col-12 col-md-6 mb-5">
+                    <div class="rating-wrap mb-4">
+                        <img src="img/star.svg" alt="star">
+                        <img src="img/star.svg" alt="star">
+                        <img src="img/star.svg" alt="star">
+                        <img src="img/star.svg" alt="star">
+                        <img src="img/star.svg" alt="star">
+                    </div>
+                    <div class="review-text">
+                        <h6 class="h6 mb-4">"Сделали все быстро и со вкусом, порадовали отличным качеством предоставленные чертежи и рендеры"</h6>
+                    </div>
+                    <div class="review-user d-flex align-items-center">
+                        <img src="img/avatar-1.png" alt="user-avatar">
+                        <div class="d-flex flex-column ms-3">
+                            <span class="mb-0"><b>Пабло Эскобар</b></span>
+                            <span>Заместитель конгресса Колумбии</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-container col-12 col-md-6">
+                    <div class="rating-wrap mb-4">
+                        <img src="img/star.svg" alt="star">
+                        <img src="img/star.svg" alt="star">
+                        <img src="img/star.svg" alt="star">
+                        <img src="img/star.svg" alt="star">
+                        <img src="img/star.svg" alt="star">
+                    </div>
+                    <div class="review-text">
+                        <h6 class="h6 mb-4">"Никогда не думал, что мои мечты о доме возможно воплотить в реальность!"</h6>
+                    </div>
+                    <div class="review-user d-flex align-items-center">
+                        <img src="img/avatar-2.png" alt="user-avatar">
+                        <div class="d-flex flex-column ms-3">
+                            <span class="mb-0"><b>Сатоши Накамото</b></span>
+                            <span>Bitcoin Developer</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-block">
+            <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
+                <div class="me-0 mb-5 me-lg-3">
+                    <h2 class="h2">Откройте для себя наши архитектурные решения</h2>
+                    <p class="p-title">Познакомьтесь с нашими проектами и свяжитесь с нами для индивидуальной консультации. Мы поможем воплотить ваши идеи в жизнь с учётом всех ваших пожеланий и требований.</p>
+                    <div class="btns-wrap">
+                        <a href="#" class="hero-btn-primary hero-btn-primary-black">Изучить</a>
+                        <a href="#" class="hero-btn-secondary hero-btn-secondary-black">Связаться</a>
+                    </div>
+                </div>
+                <img src="img/temp-img.png" class="page-block-img col-12 col-lg-8">
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <section class="page-block">
+            <div class="container">
+                <div class="footer-links-wrap d-flex align-items-center justify-content-between flex-column flex-sm-row">
+                    <a href="index.php">
+                        <img src="img/logo.svg" alt="logo.png">
+                    </a>
+                    <div class="d-flex fw-bolder flex-column flex-sm-row my-sm-0 text-center my-5">
+                        <a class="nav-link" href="#">Проекты</a>
+                        <a class="nav-link mx-4 my-sm-0 my-4" href="#">О нас</a>
+                        <a class="nav-link" href="#">Связаться</a>
+                    </div>
+                    <div class="d-flex">
+                        <a class="nav-link">
+                            <img src="img/mail-ico.svg" alt="email-ico">
+                        </a>
+                        <a class="nav-link mx-2" href="#">
+                            <img src="img/telegram-ico.svg" alt="telegram-ico">
+                        </a>
+                        <a class="nav-link" href="#">
+                            <img src="img/youtube-ico.svg" alt="youtube-ico">
+                        </a>
+                    </div>
+                </div>
+                <p class="small-title text-center mt-5">© 2025 Инспат. Все права защищены.</p>
+            </div>
+        </section>
+    </footer>
 
 
     <script src="js/bootstrap.min.js"></script>

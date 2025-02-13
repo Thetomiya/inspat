@@ -177,40 +177,16 @@ padding-top: 20px;
     margin-left: 14px;
 }
 
-@media screen and (max-width: 332px) {
-    .hero-btn-primary {
-        padding: 12px 12px;
-
-    }
-    
-    .hero-btn-secondary {
-        padding: 12px 12px;
-        margin-left: 8px;
-    }
+.hero-btn-primary-black {
+    color: #ffffff;
+    background: #000000;
+    border: 1px solid #000000;
 }
 
-@media screen and (max-width: 650px) {
-    .h1 {
-        font-size: 2.5rem;
-    }
-    .h2 {
-        font-size: 2rem;
-    }
-    .h5 {
-        font-size: 1.25rem;
-    }
-    .h6 {
-
-        font-size: 1.125rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-
-    .p-title {
-        font-size: 1rem;
-    }
+.hero-btn-secondary-black {
+    color: #000000;
+    background: #ffffff00;
+    border: 1px solid #000000;
 }
 
 .page-block {
@@ -230,4 +206,66 @@ padding-top: 20px;
     max-height: 240px;
     object-fit: cover;
     width: 100%;
+}
+
+.advantages-wrap {
+    border-left: 2px solid black;
+    margin-bottom: 25px;
+    
+}
+
+.advantage-title {
+    font-size: 4.375rem;
+}
+
+.footer-links-wrap {
+    padding-bottom: 80px;
+    border-bottom: 1px solid black;
+}
+
+.small-title {
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 1156px) {
+    .advantage-title {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .h1 {
+        font-size: 2.5rem;
+    }
+    .h2 {
+        font-size: 2rem;
+    }
+    .h5 {
+        font-size: 1.25rem;
+    }
+    .h6 {
+
+        font-size: 1.125rem;
+    }
+
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .p-title {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 332px) {
+    .hero-btn-primary {
+        padding: 12px 12px;
+
+    }
+    
+    .hero-btn-secondary {
+        padding: 12px 12px;
+        margin-left: 8px;
+    }
 }
