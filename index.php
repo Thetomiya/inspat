@@ -9,41 +9,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
 </head>
 <body>
     <div class="container">
-    <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid  p-0">
-            <a class="navbar-brand" href="index.php"><img src="img/logo.svg" alt="logo.svg"></a>
-
-            <div class='d-flex buttons-wrap order-lg-2'>
-                <div class="navbar-switches p-0 d-flex justify-content-between">
-                    <div class="theme-switch-container ps-3 pe-3 align-content-center">
-                        <img src="img/theme-switch.svg" alt="theme-switch.svg">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid p-0">
+                    <div class="header-width-container">
+                        <a class="navbar-brand m-0" href="index.php"><img src="img/logo.svg" alt="logo.svg"></a>
                     </div>
-                    <div class="email-btn-container align-content-center">
-                        <img src="img/mail-ico.svg" alt="mail-ico.svg">
+
+                    <div class='d-flex buttons-wrap header-width-container order-lg-2'>
+                        <div class="navbar-switches p-0 d-flex justify-content-between">
+                            <div class="theme-switch-container pe-3 align-content-center">
+                                <img src="img/theme-switch.svg" alt="theme-switch.svg">
+                            </div>
+                            <div class="email-btn-container align-content-center">
+                                <img src="img/mail-ico.svg" alt="mail-ico.svg">
+                            </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <div class="collapse row drop-menu navbar-collapse justify-content-center  order-lg-1 m-0" id="navbarNavAltMarkup">
+                        <div class="row flex-column flex-lg-row p-0">
+                            <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
+                                <a class="nav-link" href="#">Проекты</a>
+                                <a class="nav-link mx-0 mx-lg-4" href="#">О нас</a>
+                                <a class="nav-link" href="contacts.php">Связаться</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-
-            <div class="collapse row drop-menu navbar-collapse justify-content-center justify-content-lg-between order-lg-1" id="navbarNavAltMarkup">
-                <div class="row flex-column  flex-lg-row p-0">
-                    <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
-                        <a class="nav-link" href="#">Проекты</a>
-                        <a class="nav-link mx-0 mx-lg-4" href="#">О нас</a>
-                        <a class="nav-link" href="#">Связаться</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-    </header>
+            </nav>
+        </header>
     </div>
 
     <main>

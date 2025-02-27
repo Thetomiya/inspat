@@ -20,6 +20,10 @@ a {
     color: #000;
 }
 
+.header-width-container {
+    min-width: 65px;
+}
+
 .bg-body-tertiary {
     background-color: white !important;
 }
@@ -225,6 +229,17 @@ padding-top: 20px;
 
 .small-title {
     font-size: 0.875rem;
+}
+
+.contact-form-input {
+    border-radius: 0px;
+    border-color: rgba(0, 0, 0, 0.75);
+}
+
+.contact-form-input:focus {
+
+    border-color: rgba(0, 0, 0, 0.75);
+    box-shadow: none;
 }
 
 @media screen and (max-width: 1156px) {
