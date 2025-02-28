@@ -34,11 +34,11 @@
                         </button>
                     </div>
 
-                    <div class="collapse row drop-menu navbar-collapse justify-content-center  order-lg-1 m-0" id="navbarNavAltMarkup">
+                    <div class="collapse row drop-menu navbar-collapse justify-content-center order-lg-1 m-lg-0" id="navbarNavAltMarkup">
                         <div class="row flex-column flex-lg-row p-0">
                             <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
-                                <a class="nav-link" href="#">Проекты</a>
-                                <a class="nav-link mx-0 mx-lg-4" href="#">О нас</a>
+                                <a class="nav-link" href="projects.php">Проекты</a>
+                                <a class="nav-link mx-0 mx-lg-4" href="#about-us-section">О нас</a>
                                 <a class="nav-link" href="contacts.php">Связаться</a>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
             </div>
         </section>
 
-        <section class="page-block">
+        <section class="page-block" id="about-us-section">
             <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
                 <div class="me-0 me-lg-3">
                     <h2 class="h2">Опыт и знания в различных типах архитектурных проектов</h2>

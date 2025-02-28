@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Связаться</title>
+    <title>Проекты</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,45 +52,45 @@
         <section class="page-block">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-md-8 col-12">
-                        <h2 class="h2 col-12 col-lg-6 mb-5">Связаться с нами</h2>
-                        <p class="p-title mb-5">Мы готовы помочь вам с вашими запросами.</p>
-                        <div class="d-flex flex-column">
-                            <div class="d-flex align-items-center mb-4">
-                                <img src="img/mail-ico.svg" alt="mail-ico" class="me-3">
-                                <span>hello@inspat.ru</span>
+                    <h2 class="h2 col-12 col-lg-6 mb-5">Наше портфолио проектов</h2>
+                    <div class="d-flex flex-column p-0">
+                        <div class="projects-list-wrap">
+                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                                <div class="col-12 col-sm-7 mb-sm-0 mb-4">
+                                    <h4 class="h4 mb-4">Общественные и административные здания</h4>
+                                    <a href="#" class="nav-link">Подробнее ></a>
+                                </div>
+                                <img src="img/public-buildings-section.png" alt="public-buildings-section" class="col-12 col-sm-5 projects-list-img img-fluid">
                             </div>
-                            <div class="d-flex align-items-center mb-4">
-                                <img src="img/phone-ico.svg" alt="mail-ico" class="me-3">
-                                <span><u>+7 (812) 989-80-13</u></span>
+                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                                <div class="col-12 col-sm-7 mb-sm-0 mb-4">
+                                    <h4 class="h4 mb-4">Жилые здания</h4>
+                                    <a href="#" class="nav-link">Подробнее ></a>
+                                </div>
+                                <img src="img/living-bulding-section.png" alt="living-bulding-section" class="col-12 col-sm-5 projects-list-img img-fluid">
                             </div>
-                            <div class="d-flex align-items-center mb-4">
-                                <img src="img/location-ico.svg" alt="mail-ico" class="me-3">
-                                <span>Санкт-Петербург, ул Большой проспект Петроградской стороны, 32</span>
+                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                                <div class="col-12 col-sm-7 mb-sm-0 mb-4">
+                                    <h4 class="h4 mb-4">Медицинские и фармацевтические объекты</h4>
+                                    <a href="#" class="nav-link">Подробнее ></a>
+                                </div>
+                                <img src="img/medic-building-section.png" alt="medic-building-section" class="col-12 col-sm-5 projects-list-img img-fluid">
+                            </div>
+                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                                <div class="col-12 col-sm-7 mb-sm-0 mb-4">
+                                    <h4 class="h4 mb-4">Промышленные объекты</h4>
+                                    <a href="#" class="nav-link">Подробнее ></a>
+                                </div>
+                                <img src="img/industrial-building-section.png" alt="industrial-building-section" class="col-12 col-sm-5 projects-list-img img-fluid">
+                            </div>
+                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                                <div class="col-12 col-sm-7 mb-sm-0 mb-4">
+                                    <h4 class="h4 mb-4">Градостроительные решения и благоустройство</h4>
+                                    <a href="#" class="nav-link">Подробнее ></a>
+                                </div>
+                                <img src="img/cities-building-section.png" alt="cities-building-section" class="col-12 col-sm-5 projects-list-img img-fluid">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-12">
-                        <form action="#" method="post">
-                            <div class="d-flex flex-column">
-                                <div class="mb-4">
-                                    <label for="name">Имя</label>
-                                    <input type="text" id="username" name="username" class="form-control contact-form-input">
-                                </div>
-                                <div class="mb-4">
-                                    <label for="email">Email</label>
-                                    <input type="email" id="email" name="email" class="form-control contact-form-input">
-                                </div>
-                                <div class="mb-4">
-                                    <label for="question">Вопрос</label>
-                                    <textarea id="question" name="question" placeholder="Напишите свой вопрос" rows="7"class="form-control contact-form-input"></textarea>
-                                </div>
-                                <div>
-                                    <button type="submit" class="hero-btn-primary hero-btn-primary-black">Написать</button>
-                                    
-                                </div>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
