@@ -58,37 +58,59 @@
                             <div class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Общественные и административные здания</h4>
-                                    <a href="#" class="nav-link">Подробнее ></a>
+                                    <div class="see-more-btn-container">
+                                        <span class="project-card-description">Подробнее ></span>
+                                    </div>
                                 </div>
-                                <img src="img/public-buildings-section.png" alt="public-buildings-section" class="col-12 col-sm-5 projects-list-img img-fluid">
+                                <div class="img-container col-12 col-sm-5">
+                                    <img src="img/public-buildings-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
+                                </div>
                             </div>
                             <div class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Жилые здания</h4>
-                                    <a href="#" class="nav-link">Подробнее ></a>
+                                    <div class="see-more-btn-container">
+                                        <span class="project-card-description">Подробнее ></span>
+                                    </div>
                                 </div>
-                                <img src="img/living-bulding-section.png" alt="living-bulding-section" class="col-12 col-sm-5 projects-list-img img-fluid">
+                                <div class="img-container col-12 col-sm-5">
+                                    <img src="img/living-bulding-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
+                                </div>
                             </div>
                             <div class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Медицинские и фармацевтические объекты</h4>
-                                    <a href="#" class="nav-link">Подробнее ></a>
+                                    <div class="see-more-btn-container">
+                                        <span class="project-card-description">Подробнее ></span>
+                                    </div>
                                 </div>
-                                <img src="img/medic-building-section.png" alt="medic-building-section" class="col-12 col-sm-5 projects-list-img img-fluid">
+                                <div class="img-container col-12 col-sm-5">
+                                    <img src="img/medic-building-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
+                                </div>
+
                             </div>
                             <div class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Промышленные объекты</h4>
-                                    <a href="#" class="nav-link">Подробнее ></a>
+                                    <div class="see-more-btn-container">
+                                        <span class="project-card-description">Подробнее ></span>
+                                    </div>
                                 </div>
-                                <img src="img/industrial-building-section.png" alt="industrial-building-section" class="col-12 col-sm-5 projects-list-img img-fluid">
+                                <div class="img-container col-12 col-sm-5">
+                                    <img src="img/industrial-building-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
+                                </div>
+                                
                             </div>
                             <div class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Градостроительные решения и благоустройство</h4>
-                                    <a href="#" class="nav-link">Подробнее ></a>
+                                    <div class="see-more-btn-container">
+                                        <span class="project-card-description">Подробнее ></span>
+                                    </div>
                                 </div>
-                                <img src="img/cities-building-section.png" alt="cities-building-section" class="col-12 col-sm-5 projects-list-img img-fluid">
+                                <div class="img-container col-12 col-sm-5">
+                                    <img src="img/cities-building-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -102,13 +124,15 @@
         <section class="page-block">
             <div class="container">
                 <div class="footer-links-wrap d-flex align-items-center justify-content-between flex-column flex-sm-row">
-                    <a href="index.php">
-                        <img src="img/logo.svg" alt="logo.png">
-                    </a>
+                    <div class="footer-logo-wrap d-flex justify-content-center justify-content-sm-start">
+                        <a href="index.php">
+                            <img src="img/logo.svg" alt="logo.png">
+                        </a>
+                    </div>
                     <div class="d-flex fw-bolder flex-column flex-sm-row my-sm-0 text-center my-5">
-                        <a class="nav-link" href="#">Проекты</a>
-                        <a class="nav-link mx-4 my-sm-0 my-4" href="#">О нас</a>
-                        <a class="nav-link" href="#">Связаться</a>
+                        <a class="nav-link footer-nav-link" href="#">Проекты</a>
+                        <a class="nav-link footer-nav-link mx-4" href="#">О нас</a>
+                        <a class="nav-link footer-nav-link" href="#">Связаться</a>
                     </div>
                     <div class="d-flex">
                         <a class="nav-link">

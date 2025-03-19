@@ -102,13 +102,15 @@
         <section class="page-block">
             <div class="container">
                 <div class="footer-links-wrap d-flex align-items-center justify-content-between flex-column flex-sm-row">
-                    <a href="index.php">
-                        <img src="img/logo.svg" alt="logo.png">
-                    </a>
+                    <div class="footer-logo-wrap d-flex justify-content-center justify-content-sm-start">
+                        <a href="index.php">
+                            <img src="img/logo.svg" alt="logo.png">
+                        </a>
+                    </div>
                     <div class="d-flex fw-bolder flex-column flex-sm-row my-sm-0 text-center my-5">
-                        <a class="nav-link" href="#">Проекты</a>
-                        <a class="nav-link mx-4 my-sm-0 my-4" href="#">О нас</a>
-                        <a class="nav-link" href="#">Связаться</a>
+                        <a class="nav-link footer-nav-link" href="#">Проекты</a>
+                        <a class="nav-link footer-nav-link mx-4" href="#">О нас</a>
+                        <a class="nav-link footer-nav-link" href="#">Связаться</a>
                     </div>
                     <div class="d-flex">
                         <a class="nav-link">

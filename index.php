@@ -70,7 +70,9 @@
                     <h2 class="h2">Опыт и знания в различных типах архитектурных проектов</h2>
                     <p class="p-title">Наше бюро имеет обширный опыт проектирования жилых, коммерческих и сложных промышленных объектов. Мы применяем инновационные подходы и стремимся к выдающимся результатам, учитывая уникальные запросы каждого клиента.</p>
                 </div>
-                <img src="img/temp-img.png" class="page-block-img col-12 col-lg-8">
+                <div class="img-container col-12 col-lg-8">
+                    <img src="img/temp-img.png" class="page-block-img">
+                </div>
             </div>
         </section>
 
@@ -81,10 +83,15 @@
                 <div class="row">
                     <div class="col-md-4 mb-md-0 mb-5 col-12">
                         <a href="#" class="project-card-preview">
-                            <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
+                            <div class="img-container">
+                                <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
+                            </div>
                             <h5 class="h5 mb-4">ЖК «ОКТЯБРЬСКАЯ»</h5>
                             <p class="project-card-description">Современный жилой комплекс с продуманными планировочными решениями и удобной инфраструктурой для комфортной жизни в центре столицы.</p>
-                            <span class="project-card-description">Подробнее ></span>
+                            <div class="see-more-btn-container">
+                                <span class="project-card-description">Подробнее ></span>
+                            </div>
+
                         </a>
                     </div>
                     <div class="col-md-4 mb-md-0 mb-5 col-12">
@@ -92,7 +99,9 @@
                             <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
                             <h5 class="h5 mb-4">ГОСТИНИЧНЫЙ КОПЛЕКС</h5>
                             <p class="project-card-description">Комфортная 4-звёздочная гостиница с рестораном, конференц-залами и спортивными помещениями для полноценного отдыха гостей.</p>
-                            <span class="project-card-description">Подробнее ></span>
+                            <div class="see-more-btn-container">
+                                <span class="project-card-description">Подробнее ></span>
+                            </div>
                         </a>
                     </div>
                     <div class="col-md-4 mb-md-0 mb-5 col-12">
@@ -100,7 +109,9 @@
                             <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
                             <h5 class="h5 mb-4">РЕКОНСТРУКЦИЯ ЗДАНИЯ</h5>
                             <p class="project-card-description">Восстановление исторических фасадов с современными архитектурными решениями и созданием комфортного рабочего пространства.</p>
-                            <span class="project-card-description">Подробнее ></span>
+                            <div class="see-more-btn-container">
+                                <span class="project-card-description">Подробнее ></span>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -116,28 +127,33 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
-                            <img src="img/temp-1.png" class="img-fluid mb-4" alt="image-preview">
+                            <div class="img-container">
+                                <img src="img/temp-1.png" class="img-fluid mb-4" alt="image-preview">
+                            </div>
                             <h6 class="h6 mb-4">Общественные и административные здания</h5>
-                            
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
-                            <img src="img/temp-2.png" class="img-fluid mb-4" alt="image-preview">
+                            <div class="img-container">
+                                <img src="img/temp-2.png" class="img-fluid mb-4" alt="image-preview">
+                            </div>
                             <h6 class="h6 mb-4">Жилые здания</h5>
-                            
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
-                            <img src="img/temp-3.png" class="img-fluid mb-4" alt="image-preview">
+                            <div class="img-container">
+                                <img src="img/temp-3.png" class="img-fluid mb-4" alt="image-preview">
+                            </div>
                             <h6 class="h6 mb-4">Медицинские и фармацевтические объекты</h5>
-                            
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
-                            <img src="img/temp-4.png" class="img-fluid mb-4" alt="image-preview">
+                            <div class="img-container">
+                                <img src="img/temp-4.png" class="img-fluid mb-4" alt="image-preview">
+                            </div>
                             <h6 class="h6 mb-4">Промышленные объекты</h5>
                         </div>
                     </div>
@@ -233,7 +249,9 @@
                         <a href="#" class="hero-btn-secondary hero-btn-secondary-black">Связаться</a>
                     </div>
                 </div>
-                <img src="img/temp-img.png" class="page-block-img col-12 col-lg-8">
+                <div class="img-container col-12 col-lg-8">
+                    <img src="img/temp-img.png" class="page-block-img">
+                </div>
             </div>
         </section>
     </main>
@@ -242,13 +260,15 @@
         <section class="page-block">
             <div class="container">
                 <div class="footer-links-wrap d-flex align-items-center justify-content-between flex-column flex-sm-row">
-                    <a href="index.php">
-                        <img src="img/logo.svg" alt="logo.png">
-                    </a>
+                    <div class="footer-logo-wrap d-flex justify-content-center justify-content-sm-start">
+                        <a href="index.php">
+                            <img src="img/logo.svg" alt="logo.png">
+                        </a>
+                    </div>
                     <div class="d-flex fw-bolder flex-column flex-sm-row my-sm-0 text-center my-5">
-                        <a class="nav-link" href="#">Проекты</a>
-                        <a class="nav-link mx-4 my-sm-0 my-4" href="#">О нас</a>
-                        <a class="nav-link" href="#">Связаться</a>
+                        <a class="nav-link footer-nav-link" href="#">Проекты</a>
+                        <a class="nav-link footer-nav-link mx-4" href="#">О нас</a>
+                        <a class="nav-link footer-nav-link" href="#">Связаться</a>
                     </div>
                     <div class="d-flex">
                         <a class="nav-link">
