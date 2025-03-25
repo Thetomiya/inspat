@@ -12,8 +12,8 @@
     <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
-        <header>
+<header class="fixed-top fixed-header-wrap">
+        <div class="container">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid p-0">
                     <div class="header-width-container">
@@ -21,21 +21,13 @@
                     </div>
 
                     <div class='d-flex buttons-wrap header-width-container order-lg-2'>
-                        <div class="navbar-switches p-0 d-flex justify-content-between">
-                            <div class="theme-switch-container pe-3 align-content-center">
-                                <img src="img/theme-switch.svg" alt="theme-switch.svg">
-                            </div>
-                            <div class="email-btn-container align-content-center">
-                                <img src="img/mail-ico.svg" alt="mail-ico.svg">
-                            </div>
-                        </div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </div>
 
-                    <div class="collapse row drop-menu navbar-collapse justify-content-center order-lg-1 m-lg-0" id="navbarNavAltMarkup">
-                        <div class="row flex-column flex-lg-row p-0">
+                    <div class="collapse row drop-menu navbar-collapse justify-content-center m-lg-0" id="navbarNavAltMarkup">
+                        <div class="row flex-column mt-3 mt-lg-0 flex-lg-row p-0">
                             <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
                                 <a class="nav-link" href="projects.php">Проекты</a>
                                 <a class="nav-link mx-0 mx-lg-4" href="index.php#about-us-section">О нас</a>
@@ -45,8 +37,8 @@
                     </div>
                 </div>
             </nav>
-        </header>
-    </div>
+        </div>
+    </header>
 
     <main>
         <section class="page-block">
@@ -112,6 +104,17 @@
                                     <img src="img/cities-building-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
                                 </div>
                             </div>
+                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                                <div class="col-12 col-sm-7 mb-sm-0 mb-4">
+                                    <h4 class="h4 mb-4">Спецразделы</h4>
+                                    <div class="see-more-btn-container">
+                                        <span class="project-card-description">Подробнее ></span>
+                                    </div>
+                                </div>
+                                <div class="img-container col-12 col-sm-5">
+                                    <img src="img/industrial-building-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -123,30 +126,7 @@
     <footer>
         <section class="page-block">
             <div class="container">
-                <div class="footer-links-wrap d-flex align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="footer-logo-wrap d-flex justify-content-center justify-content-sm-start">
-                        <a href="index.php">
-                            <img src="img/logo.svg" alt="logo.png">
-                        </a>
-                    </div>
-                    <div class="d-flex fw-bolder flex-column flex-sm-row my-sm-0 text-center my-5">
-                        <a class="nav-link footer-nav-link" href="#">Проекты</a>
-                        <a class="nav-link footer-nav-link mx-4" href="#">О нас</a>
-                        <a class="nav-link footer-nav-link" href="#">Связаться</a>
-                    </div>
-                    <div class="d-flex">
-                        <a class="nav-link">
-                            <img src="img/mail-ico.svg" alt="email-ico">
-                        </a>
-                        <a class="nav-link mx-2" href="#">
-                            <img src="img/telegram-ico.svg" alt="telegram-ico">
-                        </a>
-                        <a class="nav-link" href="#">
-                            <img src="img/youtube-ico.svg" alt="youtube-ico">
-                        </a>
-                    </div>
-                </div>
-                <p class="small-title text-center mt-5">© 2025 Инспат. Все права защищены.</p>
+                <p class="small-title footer-wrap-container text-center mt-5">© 2025 Инспат. Все права защищены.</p>
             </div>
         </section>
     </footer>
