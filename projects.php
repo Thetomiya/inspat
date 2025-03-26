@@ -47,7 +47,7 @@
                     <h2 class="h2 col-12 col-lg-6 mb-5">Наше портфолио проектов</h2>
                     <div class="d-flex flex-column p-0">
                         <div class="projects-list-wrap">
-                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                            <a href="projects-list.php" class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Общественные и административные здания</h4>
                                     <div class="see-more-btn-container">
@@ -57,8 +57,8 @@
                                 <div class="img-container col-12 col-sm-5">
                                     <img src="img/public-buildings-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
                                 </div>
-                            </div>
-                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                            </a>
+                            <a href="projects-list.php" class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Жилые здания</h4>
                                     <div class="see-more-btn-container">
@@ -68,8 +68,8 @@
                                 <div class="img-container col-12 col-sm-5">
                                     <img src="img/living-bulding-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
                                 </div>
-                            </div>
-                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                            </a>
+                            <a href="projects-list.php" class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Медицинские и фармацевтические объекты</h4>
                                     <div class="see-more-btn-container">
@@ -80,8 +80,8 @@
                                     <img src="img/medic-building-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
                                 </div>
 
-                            </div>
-                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                            </a>
+                            <a href="projects-list.php" class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Промышленные объекты</h4>
                                     <div class="see-more-btn-container">
@@ -92,8 +92,8 @@
                                     <img src="img/industrial-building-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
                                 </div>
                                 
-                            </div>
-                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                            </a>
+                            <a href="projects-list.php" class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Градостроительные решения и благоустройство</h4>
                                     <div class="see-more-btn-container">
@@ -103,8 +103,8 @@
                                 <div class="img-container col-12 col-sm-5">
                                     <img src="img/cities-building-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
                                 </div>
-                            </div>
-                            <div class="project-wrap d-flex align-items-center justify-content-between row">
+                            </a>
+                            <a href="projects-list.php" class="project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Спецразделы</h4>
                                     <div class="see-more-btn-container">
@@ -114,7 +114,7 @@
                                 <div class="img-container col-12 col-sm-5">
                                     <img src="img/industrial-building-section.png" alt="cities-building-section" class="projects-list-img img-fluid">
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

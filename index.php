@@ -42,7 +42,6 @@
     <main>
 
     <section class="hero">
-    <!-- Карусель для фоновых изображений -->
     <div id="heroCarousel" class="carousel slide" data-bs-pause="false" data-bs-interval="6000" data-bs-ride="carousel">
         <div class="carousel-inner">
             <!-- Слайды -->
@@ -58,15 +57,14 @@
         </div>
     </div>
 
-    <!-- Контент поверх карусели -->
     <div class="container">
         <div class="hero-content col-12 col-lg-7 col-xl-5">
             <h1 class="h1">Создаем пространства будущего</h1>
             <p>Мы создаём вдохновляющие пространства, работая с жилыми, коммерческими и промышленными объектами. Наша команда воплощает ваши идеи, обеспечивая высокое качество и креативность в каждом проекте.</p>
 
             <div class="btns-wrap">
-                <a href="#" class="hero-btn-primary">Связаться</a>
-                <a href="#" class="hero-btn-secondary">Наши проекты</a>
+                <a href="contacts.php" class="hero-btn-primary">Связаться</a>
+                <a href="projects.php" class="hero-btn-secondary">Наши проекты</a>
             </div>
         </div>
     </div>
@@ -179,46 +177,46 @@
         <section class="page-block">
             <div class="container ">
                 <div class="row">
-                <h2 class="h2">Отзывы клиентов</h2>
-                <p class="p-title mb-5">Их внимание к деталям не знает себе равных</p>
-                <div class="review-container col-12 col-md-6 mb-5">
-                    <div class="rating-wrap mb-4">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                    </div>
-                    <div class="review-text">
-                        <h6 class="h6 mb-4">"Сделали все быстро и со вкусом, порадовали отличным качеством предоставленные чертежи и рендеры"</h6>
-                    </div>
-                    <div class="review-user d-flex align-items-center">
-                        <img src="img/avatar-1.png" alt="user-avatar">
-                        <div class="d-flex flex-column ms-3">
-                            <span class="mb-0"><b>Пабло Эскобар</b></span>
-                            <span>Заместитель конгресса Колумбии</span>
+                    <h2 class="h2">Отзывы клиентов</h2>
+                    <p class="p-title mb-5">Их внимание к деталям не знает себе равных</p>
+                    <div class="review-container col-12 col-md-6 mb-5">
+                        <div class="rating-wrap mb-4">
+                            <img src="img/star.svg" alt="star">
+                            <img src="img/star.svg" alt="star">
+                            <img src="img/star.svg" alt="star">
+                            <img src="img/star.svg" alt="star">
+                            <img src="img/star.svg" alt="star">
+                        </div>
+                        <div class="review-text">
+                            <h6 class="h6 mb-4">"Сделали все быстро и со вкусом, порадовали отличным качеством предоставленные чертежи и рендеры"</h6>
+                        </div>
+                        <div class="review-user d-flex align-items-center">
+                            <img src="img/avatar-1.png" alt="user-avatar">
+                            <div class="d-flex flex-column ms-3">
+                                <span class="mb-0"><b>Пабло Эскобар</b></span>
+                                <span>Заместитель конгресса Колумбии</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="review-container col-12 col-md-6">
-                    <div class="rating-wrap mb-4">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                    </div>
-                    <div class="review-text">
-                        <h6 class="h6 mb-4">"Никогда не думал, что мои мечты о доме возможно воплотить в реальность!"</h6>
-                    </div>
-                    <div class="review-user d-flex align-items-center">
-                        <img src="img/avatar-2.png" alt="user-avatar">
-                        <div class="d-flex flex-column ms-3">
-                            <span class="mb-0"><b>Сатоши Накамото</b></span>
-                            <span>Bitcoin Developer</span>
+                    <div class="review-container col-12 col-md-6">
+                        <div class="rating-wrap mb-4">
+                            <img src="img/star.svg" alt="star">
+                            <img src="img/star.svg" alt="star">
+                            <img src="img/star.svg" alt="star">
+                            <img src="img/star.svg" alt="star">
+                            <img src="img/star.svg" alt="star">
+                        </div>
+                        <div class="review-text">
+                            <h6 class="h6 mb-4">"Никогда не думал, что мои мечты о доме возможно воплотить в реальность!"</h6>
+                        </div>
+                        <div class="review-user d-flex align-items-center">
+                            <img src="img/avatar-2.png" alt="user-avatar">
+                            <div class="d-flex flex-column ms-3">
+                                <span class="mb-0"><b>Сатоши Накамото</b></span>
+                                <span>Bitcoin Developer</span>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </section>
