@@ -2,9 +2,67 @@
     font-family: 'Roboto', sans-serif !important;
 }
 
+/*
+    Переменные для белой/темной темы. Root - белая тема. 
+    Все стили делайте в белой теме (root), при смене темы все само поменяется. 
+    Если нужны какие-то новые цвета, то в root вставляйте новые переменные,
+    а затем создаете такую же переменную в медиа-запрос с темным вариантом цвета.
+    Для вставки переменной используется команда var(--clr-dark). 
+    Вместо "--clr-dark" ставим нужную переменную из Root.
+*/
+:root {
+    --clr-bg: #fff;
+    --clr-text: #000;
+    --clr-color-1: #fff;
+    --clr-color-2: #000;
+    --clr-grey: #444;
+    --clr-invert: invert(0%);
+    --clr-rgba: rgba(0, 0, 0, 0.75);
+}
+  
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-bg: #171717;
+        --clr-text: #fff;
+        --clr-color-1: #000;
+        --clr-color-2: #fff;
+        --clr-grey: #444;
+        --clr-invert: invert(100%);
+        --clr-rgba: rgba(255, 255, 255, 0.75);
+    }
+}
+
+/* Дополнительные стили которые были изменены для ~корректной смены темы */
+
+body {
+    background: var(--clr-bg) !important;
+}
+
+.navbar-brand img, .me-3, .rating-wrap img, .navbar-toggler-icon {
+    filter: var(--clr-invert) !important;
+}
+
+.img-container img {
+    filter: none !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p, b, span, label, textarea::placeholder, .form-control {
+    color: var(--clr-text) !important;
+}
+
+.hero-content h1, .hero-content p{
+    color: #fff !important;
+}
+
+textarea, .mb-4 input {
+    background: var(--clr-bg) !important;
+}
+
+/* Конец */
+
 a {
     text-decoration: none;
-    color: #000;
+    color: var(--clr-text) !important;
 }
 
 .container {
@@ -17,7 +75,7 @@ a {
 }
 
 .nav-link {
-    color: #000;
+    color: var(--clr-text) !important;
 }
 
 .header-width-container {
@@ -25,7 +83,7 @@ a {
 }
 
 .bg-body-tertiary {
-    background-color: white !important;
+    background-color: var(--clr-bg) !important;
 }
 
 .navbar-toggler {
@@ -44,18 +102,18 @@ a {
 
 .drop-menu {
     z-index: 20 !important;
-    background-color: #fff;
+    background-color: var(--clr-bg) !important;
 }
 
 .fixed-header-wrap {
     width: 100%;
-    background-color: #fff;
-    border-bottom: 1px solid black;
+    background-color: var(--clr-bg) !important;
+    border-bottom: 1px solid var(--clr-color-2) !important;
     z-index: 10;
 }
 
 .mobile-drop-menu {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--clr-color-2) !important;
     z-index: -1;
 }
 
@@ -75,7 +133,7 @@ a {
     position: absolute;
     width: 24px;
     height: 2px;
-    background-color: #000; 
+    background-color: var(--clr-color-2) !important; 
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -137,7 +195,7 @@ a {
 .hero {
     height: calc(100vh - 72px);
     width: 100%;
-    color: #fff;
+    color: var(--clr-color-1) !important;
     position: relative;
 }
 
@@ -166,7 +224,8 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #444444af;
+    background-color: #444444af !important;
+    /* background-color: var(--clr-grey) !important; */
 }
 
 .hero .container {
@@ -184,7 +243,8 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #444444af; 
+    background-color: #444444af !important; 
+    /* background-color: var(--clr-grey) !important;  */
 }
 
 .hero-content {
@@ -203,7 +263,8 @@ a {
 /* Остальной контент */
 .content {
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #f9f9f9 !important;
+    /* background-color: var(--clr-color-1) !important; */
 }
 
 .btns-wrap {
@@ -212,31 +273,31 @@ padding-top: 20px;
 
 .hero-btn-primary {
     padding: 12px 24px;
-    color: #000000;
-    background: #fff;
-    border: 1px solid #fff;
+    /* color: var(--clr-text) !important; */
+    background: var(--clr-bg) !important;
+    border: 1px solid var(--clr-bg) !important;
     font-size: 16px;
 }
 
 .hero-btn-secondary {
     padding: 12px 24px;
-    color: #ffffff;
-    background: #ffffff00;
-    border: 1px solid #fff;
+    color: #fff !important;
+    background: #ffffff00 !important;
+    border: 1px solid var(--clr-bg) !important;
     font-size: 16px;
     margin-left: 14px;
 }
 
 .hero-btn-primary-black {
-    color: #ffffff;
-    background: #000000;
-    border: 1px solid #000000;
+    color: var(--clr-color-1) !important;
+    background: var(--clr-color-2) !important;
+    border: 1px solid var(--clr-bg) !important;
 }
 
 .hero-btn-secondary-black {
-    color: #000000;
-    background: #ffffff00;
-    border: 1px solid #000000;
+    color: var(--clr-color-2) !important;
+    background: #ffffff00 !important;
+    border: 1px solid var(--clr-bg) !important;
 }
 
 .page-block {
@@ -250,7 +311,7 @@ padding-top: 20px;
 }
 
 .project-card-preview {
-    color: #000;
+    color: var(--clr-color-2) !important;
 }
 
 .project-card-preview img {
@@ -261,7 +322,7 @@ padding-top: 20px;
 }
 
 .advantages-wrap {
-    border-left: 2px solid black;
+    border-left: 2px solid var(--clr-color-2) !important;
     margin-bottom: 25px;
 }
 
@@ -281,7 +342,7 @@ padding-top: 20px;
 }
 
 .footer-wrap-container {
-    border-top: 1px solid black;
+    border-top: 1px solid var(--clr-color-2) !important;
     padding-top: 40px;
 }
 
@@ -291,11 +352,11 @@ padding-top: 20px;
 
 .contact-form-input {
     border-radius: 0px;
-    border-color: rgba(0, 0, 0, 0.75);
+    border-color: var(--clr-rgba) !important;
 }
 
 .contact-form-input:focus {
-    border-color: rgba(0, 0, 0, 0.75);
+    border-color: var(--clr-rgba) !important;
     box-shadow: none;
 }
 
@@ -304,7 +365,7 @@ padding-top: 20px;
 }
 
 .project-wrap {
-    border-top: 1px solid black;
+    border-top: 1px solid var(--clr-color-2) !important;
     padding: 40px 0px;
     margin: 0px 10px;
 }

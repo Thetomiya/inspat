@@ -30,7 +30,7 @@
                         <div class="row flex-column mt-3 mt-lg-0 flex-lg-row p-0">
                             <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
                                 <a class="nav-link" href="projects.php">Проекты</a>
-                                <a class="nav-link mx-0 mx-lg-4" href="#about-us-section">О нас</a>
+                                <a class="nav-link mx-0 mx-lg-4" href="index.php#about-us-section">О нас</a>
                                 <a class="nav-link" href="contacts.php">Связаться</a>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
         <section class="project-page-hero" style="background-image: url('img/project-hero-temp.jpg');">
         </section>
 
-        <section class="page-block" id="about-us-section">
+        <section class="page-block">
             <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
                 <div class="me-0 col-12 pe-lg-4 col-lg-7">
                     <h2 class="h2">Гостиница с апартаментами</h2>
@@ -73,7 +73,7 @@
             </div>
         </section>
 
-        <section class="page-block" id="about-us-section">
+        <section class="page-block">
             <div class="container">
                 <div class="row">
                     <div class="me-0 col-12 col-xxl-5 pe-lg-4">
