@@ -49,63 +49,63 @@
                     <a href="project-page.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-img.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-2">Медицинское учереждение #1</h6>
+                            <h6 class="h6 mb-2 mt-4">Медицинское учереждение #1</h6>
                             <p>Театральная площадь, 1, Санкт-Петербург</p>
                         </div>
                     </a>
                     <a href="project-page.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-img.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-2">Медицинское учереждение #1</h6>
+                            <h6 class="h6 mb-2 mt-4">Медицинское учереждение #1</h6>
                             <p>Театральная площадь, 1, Санкт-Петербург</p>
                         </div>
                     </a>
                     <a href="project-page.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-img.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-2">Медицинское учереждение #1</h6>
+                            <h6 class="h6 mb-2 mt-4">Медицинское учереждение #1</h6>
                             <p>Театральная площадь, 1, Санкт-Петербург</p>
                         </div>
                     </a>
                     <a href="project-page.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-img.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-2">Медицинское учереждение #1</h6>
+                            <h6 class="h6 mb-2 mt-4">Медицинское учереждение #1</h6>
                             <p>Театральная площадь, 1, Санкт-Петербург</p>
                         </div>
                     </a>
                     <a href="project-page.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-img.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-2">Медицинское учереждение #1</h6>
+                            <h6 class="h6 mb-2 mt-4">Медицинское учереждение #1</h6>
                             <p>Театральная площадь, 1, Санкт-Петербург</p>
                         </div>
                     </a>
                     <a href="project-page.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-img.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-2">Медицинское учереждение #1</h6>
+                            <h6 class="h6 mb-2 mt-4">Медицинское учереждение #1</h6>
                             <p>Театральная площадь, 1, Санкт-Петербург</p>
                         </div>
                     </a>
                     <a href="project-page.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-img.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-img.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-2">Медицинское учереждение #1</h6>
+                            <h6 class="h6 mb-2 mt-4">Медицинское учереждение #1</h6>
                             <p>Театральная площадь, 1, Санкт-Петербург</p>
                         </div>
                     </a>

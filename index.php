@@ -94,49 +94,49 @@
                     <div class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-1.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-1.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-4">Общественные и административные здания</h6>
+                            <h6 class="h6 my-4">Общественные и административные здания</h6>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-2.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-2.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-4">Жилые здания</h6>
+                            <h6 class="h6 my-4">Жилые здания</h6>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-3.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-3.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-4">Медицинские и фармацевтические объекты</h6>
+                            <h6 class="h6 my-4">Медицинские и фармацевтические объекты</h6>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-4.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-4.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-4">Промышленные объекты</h6>
+                            <h6 class="h6 my-4">Промышленные объекты</h6>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/cities-building-section.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/cities-building-section.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-4">Градостроительные решения и благоустройства</h6>
+                            <h6 class="h6 my-4">Градостроительные решения и благоустройства</h6>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/temp-4.png" class="img-fluid mb-4" alt="image-preview">
+                                <img src="img/temp-4.png" class="img-fluid" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-4">Спецразделы</h6>
+                            <h6 class="h6 my-4">Спецразделы</h6>
                         </div>
                     </div>
                 </div>
