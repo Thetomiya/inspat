@@ -31,6 +31,29 @@
         --clr-rgba: rgba(255, 255, 255, 0.75);
     }
 }
+.sp{
+    color: var(--clr-text) !important;
+    position: relative;
+    text-decoration: none;
+}
+.sp{
+    color: var(--clr-text) !important;
+    position: relative;
+    text-decoration: none;
+}
+.sp::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 0;
+    height: 1px;
+    background-color: var(--clr-text) !important;
+    transition: width 0.3s ease; /* Плавное увеличение ширины */
+}
+.sp:hover::after {
+    width: 100%; /* Подчеркивание на всю ширину текста */
+  }
 
 /* Дополнительные стили которые были изменены для ~корректной смены темы */
 
@@ -48,6 +71,18 @@ body {
 
 .img-container img {
     filter: none !important;
+}
+.img-container {
+    overflow: hidden;
+}
+.project-wrap{
+    overflow: hidden;
+}
+.zoom-image {
+    transition: transform 0.3s ease;
+}
+.zoom-image:hover {
+    transform: scale(1.2);
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p, b, span, label, textarea::placeholder, .form-control {
@@ -305,7 +340,7 @@ padding-top: 20px;
 }
 
 .page-block {
-    padding: 112px 0px;
+    padding: 100px 0px 50px 0px;
 }
 
 .page-block-img {
@@ -341,13 +376,9 @@ padding-top: 20px;
     border-radius: 100%;
 }
 
-.footer-nav-link {
-    padding: 0.5rem;
-}
-
 .footer-wrap-container {
     border-top: 1px solid var(--clr-color-2) !important;
-    padding: 40px 0px;
+    padding: 19px 0px;
 }
 
 .small-title {
