@@ -31,17 +31,88 @@
         --clr-rgba: rgba(255, 255, 255, 0.75);
     }
 }
-.sp{
+section-item ul,li{
+    color: var(--clr-text) !important;
+}
+
+.sp4 {
+    color: var(--clr-text) !important;
+    position: relative;
+    text-decoration: none;
+    display: inline-block; /* Для корректного позиционирования */
+}
+
+.sp4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--clr-text) !important;
+    transition: width 0.3s ease;
+}
+
+
+
+/* Нижняя линия */
+.sp4::after {
+    bottom: -5px; /* Отступ от текста снизу */
+}
+
+/* Анимация при наведении */
+
+.project-card-preview:hover .sp4::after {
+    width: 100%;
+}
+
+
+
+
+
+
+.sp3 {
+    color: var(--clr-text) !important;
+    position: relative;
+    text-decoration: none;
+    display: inline-block; /* Для корректного позиционирования */
+}
+
+.sp3::before,
+.sp3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--clr-text) !important;
+    transition: width 0.3s ease;
+}
+
+/* Верхняя линия */
+.sp3::before {
+    top: -5px; /* Отступ от текста сверху */
+}
+
+/* Нижняя линия */
+.sp3::after {
+    bottom: -5px; /* Отступ от текста снизу */
+}
+
+/* Анимация при наведении */
+
+.project-card-preview:hover
+.sp3::before,
+.project-card-preview:hover .sp3::after {
+    width: 100%;
+}
+
+.sp {
     color: var(--clr-text) !important;
     position: relative;
     text-decoration: none;
 }
-.sp{
-    color: var(--clr-text) !important;
-    position: relative;
-    text-decoration: none;
-}
-.sp::after{
+
+.sp::after {
     content: '';
     position: absolute;
     left: 0;
@@ -49,11 +120,39 @@
     width: 0;
     height: 1px;
     background-color: var(--clr-text) !important;
-    transition: width 0.3s ease; /* Плавное увеличение ширины */
+    transition: width 0.3s ease;
 }
-.sp:hover::after {
-    width: 100%; /* Подчеркивание на всю ширину текста */
-  }
+
+/* Активация подчёркивания при ховере на карточку */
+.project-card-preview:hover .sp::after {
+    width: 100%;
+}
+
+/* Активация эффекта увеличения изображения */
+.project-card-preview:hover .zoom-image {
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+}
+.project-card-preview:hover .sp2 {
+    text-decoration: underline;
+}
+.sp:hover::after{
+    width: 100%;
+}
+
+/* Базовый стиль для изображения */
+.zoom-image {
+    transition: transform 0.3s ease;
+}
+.sp2{
+    color: var(--clr-text) !important;
+    text-decoration: none;
+}
+.sp2:hover{
+
+    text-decoration: underline;
+}
+
 
 /* Дополнительные стили которые были изменены для ~корректной смены темы */
 
@@ -419,12 +518,29 @@ padding-top: 20px;
     height: 450px;
     width: 100%;
     object-fit: cover;
+
 }
 
 .project-page-block-img {
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.onimage-wrap {
+    position: relative;
+}
+
+.onimage-text {
+    position: absolute;
+    bottom: 0; /* Размещаем текст внизу */
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для лучшей читаемости */
+    color: white;
+    margin: 0;
+    z-index: 2; /* Убедимся, что текст выше изображения */
 }
 
 @media screen and (max-width: 1156px) {
