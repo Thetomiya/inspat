@@ -529,6 +529,7 @@ padding-top: 20px;
 
 .onimage-wrap {
     position: relative;
+    overflow: hidden;
 }
 
 .onimage-text {
