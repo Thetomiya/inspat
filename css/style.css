@@ -1,7 +1,120 @@
 * {
     font-family: 'Roboto', sans-serif !important;
 }
+.btns-wrap {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
 
+.hero-btn-primary, .hero-btn-secondary {
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+    transform: translateZ(0);
+    display: inline-block;
+    text-align: center;
+    min-width: 180px;
+    border: 4px ;
+}
+
+.hero-btn-primary {
+    background: #fbfbfc;
+    color: white;
+    border: 4px solid #fbfbfc;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.25);
+}
+
+.hero-btn-secondary {
+    background: transparent;
+    color: #fbfbfc;
+    border: 4px solid #fbfbfc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Анимация при наведении */
+.hero-btn-primary:hover {
+    animation: pulsePrimary 1.5s infinite;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.4);
+}
+
+.hero-btn-secondary:hover {
+    animation: pulseSecondary 1.5s infinite;
+    transform: translateY(-3px);
+    background: rgba(0, 102, 204, 0.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Анимация при нажатии */
+.hero-btn-primary:active, 
+.hero-btn-secondary:active {
+    transform: translateY(1px) scale(0.98);
+    transition: all 0.1s ease;
+}
+
+/* Эффект пульсации для основной кнопки */
+@keyframes pulsePrimary {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    }
+    70% {
+        box-shadow: 0 0 0 12px rgba(0, 102, 204, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 102, 204, 0);
+    }
+}
+
+/* Эффект пульсации для вторичной кнопки */
+@keyframes pulseSecondary {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2);
+    }
+    70% {
+        box-shadow: 0 0 0 12px rgba(0, 102, 204, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 102, 204, 0);
+    }
+}
+
+/* Эффект волны при клике */
+.hero-btn-primary::after, 
+.hero-btn-secondary::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+}
+
+.hero-btn-primary:active::after, 
+.hero-btn-secondary:active::after {
+    animation: ripple 0.6s ease-out;
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0, 0);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(50, 50);
+        opacity: 0;
+    }
+}
 /*
     Переменные для белой/темной темы. Root - белая тема. 
     Все стили делайте в белой теме (root), при смене темы все само поменяется. 
@@ -18,6 +131,72 @@
     --clr-grey: #444;
     --clr-invert: invert(0%);
     --clr-rgba: rgba(0, 0, 0, 0.75);
+}
+/* Базовые стили для таблиц */
+
+.sp5 {
+  padding: 20px;
+    transition: all 0.3s ease; /* Плавная анимация */
+    border: 2px solid transparent; /* Прозрачная граница */
+}
+
+.sp5:hover {
+  border-color:  var(--clr-text) !important; /* Цвет контура */
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3); /* Дополнительный эффект свечения */
+}
+table {
+
+  --clr-border: #ddd; /* цвет границ */
+
+
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  color: var(--clr-text) !important;
+}
+
+/* Стили для ячеек */
+th,
+td {
+  padding: 0.75rem;
+  border: 1px solid var(--clr-border);
+  vertical-align: top;
+  text-align: left;
+  color: inherit !important; /* наследует цвет от таблицы */
+}
+
+/* Стили для заголовков */
+thead th {
+  background-color: var(--clr-header-bg);
+  font-weight: 600;
+  color: inherit !important;
+}
+
+/* Стили для подзаголовков в объединённых ячейках */
+tr th[colspan],
+tr th[rowspan] {
+  background-color: rgba(0,0,0,0.05);
+}
+
+/* Стили для полосатого эффекта */
+tbody tr:nth-child(even) {
+  background-color: rgba(0,0,0,0.02);
+}
+
+/* Специфичные стили для вложенных элементов */
+table a,
+table strong,
+table em {
+  color: inherit !important; /* наследование цвета текста */
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
   
 @media (prefers-color-scheme: dark) {
@@ -216,9 +395,7 @@ a {
     color: var(--clr-text) !important;
 }
 
-.header-width-container {
-    min-width: 65px;
-}
+
 
 .bg-body-tertiary {
     background-color: var(--clr-bg) !important;
@@ -229,6 +406,7 @@ a {
     box-shadow: none !important; 
     border-width: 0px !important;
     border: none !important;
+    padding: 0px !important;
 }
 
 .navbar-toggler:focus,
@@ -487,6 +665,11 @@ padding-top: 20px;
 .contact-form-input {
     border-radius: 0px;
     border-color: var(--clr-rgba) !important;
+}
+
+.contact-form-checkbox {
+    width: 20px;
+    height: 20px;
 }
 
 .contact-form-input:focus {

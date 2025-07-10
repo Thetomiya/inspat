@@ -54,11 +54,11 @@
                         </div>
                         <div class="d-flex align-items-center mb-4">
                             <img src="img/phone-ico.svg" alt="mail-ico" class="me-3">
-                            <span><u>+7 812 989-80-13</u></span>
+                            <span>+7 812 989-80-13</span>
                         </div>
                         <div class="d-flex align-items-center mb-4">
                             <img src="img/location-ico.svg" alt="mail-ico" class="me-3">
-                            <span>197198, Россия, г. Санкт-Петербург, ул. Ропшинская, д. 1/32, лит. А</span>
+                            <span>197046, Россия, г. Санкт-Петербург, ул. Чапаева, д. 9, лит. А</span>
                         </div>
                     </div>
                 </div>
@@ -77,6 +77,12 @@
                                 <label for="question">Вопрос</label>
                                 <textarea id="question" name="question" placeholder="Напишите свой вопрос" rows="7"class="form-control contact-form-input"></textarea>
                             </div>
+                            <div class="mb-4">
+                                <div class="d-flex">
+                                    <input type="checkbox" id="agreement" name="agreement" class="me-2 contact-form-checkbox">
+                                    <label for="agreement">Даю своё согласие на <a class="sp" href="private-policy.html">обработку персональных данных</a></label>
+                                </div>
+                            </div>
                             <div>
                                 <button type="submit" class="hero-btn-primary hero-btn-primary-black">Написать</button>
                                 
@@ -90,13 +96,20 @@
 
 </main>
 
-<footer>
-    <section class="footer-block">
-        <div class="container">
-            <p class="small-title footer-wrap-container text-center mb-0">© 2025 Инспат. Все права защищены.</p>
-        </div>
-    </section>
-</footer>
+    <footer>
+        <section class="footer-block">
+            <div class="container">
+
+                
+                <div class="d-flex flex-column text-center flex-md-row justify-content-between small-title footer-wrap-container">
+                    <a class="sp" href="private-policy.html">Политика конфиденциальности</a>
+                    <a class="p-3 p-md-0">© 2025 Инспат. Все права защищены.</a>
+                    <a class="sp" href="legal-information.html">Правовая информация</a>
+                </div>
+                
+            </div>
+        </section>
+    </footer>
 
 
     <script src="js/bootstrap.min.js"></script>
