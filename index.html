@@ -62,7 +62,7 @@
             <h1 class="h1">Создаем пространства будущего</h1>
             <p>Мы создаём вдохновляющие пространства, работая с жилыми, коммерческими и промышленными объектами. Наша команда воплощает ваши идеи, обеспечивая высокое качество и креативность в каждом проекте.</p>
 
-            <div class="btns-wrap">
+            <div class="btns-wrap flex-column flex-sm-row">
                 <a href="contacts.html" class="hero-btn-primary">Связаться</a>
                 <a href="projects.html" class="hero-btn-secondary">Наши проекты</a>
             </div>
@@ -314,6 +314,26 @@
         </section>
     </footer>
 
+
+     <!-- Cookie уведомление -->
+    <div class="modal fade" id="cookieModal" tabindex="-1" aria-labelledby="cookieModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cookieModalLabel">Использование cookie</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Для корректной работы сайту необходимо использовать cookie.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="hero-btn-secondary-black" id="acceptCookies">Хорошо</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/cookie-alert.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
 </body>
