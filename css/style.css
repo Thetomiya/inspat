@@ -635,7 +635,7 @@ padding-top: 20px;
     background: #ffffff00 !important;
     border: 1px solid var(--clr-bg) !important;
     font-size: 16px;
-    margin-left: 14px;
+    
 }
 
 .hero-btn-primary-black {
@@ -792,17 +792,5 @@ padding-top: 20px;
 
     .p-title {
         font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 332px) {
-    .hero-btn-primary {
-        padding: 12px 12px;
-
-    }
-    
-    .hero-btn-secondary {
-        padding: 12px 12px;
-        margin-left: 8px;
     }
 }
