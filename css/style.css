@@ -138,8 +138,6 @@
     color: var(--clr-text);
 }
 
-
-
 /* Базовые стили для таблиц */
 
 .sp5 {
@@ -338,6 +336,34 @@ section-item ul,li{
 .sp2:hover{
 
     text-decoration: underline;
+}
+
+
+/* подсказка при копировании */
+.email-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip-custom {
+    position: absolute;
+    left: 100px;
+    bottom: 30px;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: .75rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s;
+}
+
+.email-container:hover .tooltip-custom {
+    opacity: 1;
+    visibility: visible;
 }
 
 
@@ -609,7 +635,7 @@ padding-top: 20px;
     background: #ffffff00 !important;
     border: 1px solid var(--clr-bg) !important;
     font-size: 16px;
-    
+    margin-left: 14px;
 }
 
 .hero-btn-primary-black {
@@ -769,3 +795,14 @@ padding-top: 20px;
     }
 }
 
+@media screen and (max-width: 332px) {
+    .hero-btn-primary {
+        padding: 12px 12px;
+
+    }
+    
+    .hero-btn-secondary {
+        padding: 12px 12px;
+        margin-left: 8px;
+    }
+}

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Связаться</title>
+    <meta name="description" content="Свяжитесь с архитектурным бюро Инспат для обсуждения вашего проекта. Контактная информация и форма обратной связи.">
+    <meta name="keywords" content="Инспат, контакты, связаться, архитектурное бюро, заказать проект, консультация">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,9 +50,10 @@
                     <h2 class="h2 col-12 col-lg-6 mb-5">Связаться с нами</h2>
                     <p class="p-title mb-5">Мы готовы помочь Вам с вашими запросами.</p>
                     <div class="d-flex flex-column">
-                        <div class="d-flex align-items-center mb-4">
+                        <div class="d-flex align-items-center mb-4 email-container" onclick="copyEmail()">
                             <img src="img/mail-ico.svg" alt="mail-ico" class="me-3">
                             <span>info@inspat.ru</span>
+                            <div class="tooltip-custom">копировать адрес</div>
                         </div>
                         <div class="d-flex align-items-center mb-4">
                             <img src="img/phone-ico.svg" alt="mail-ico" class="me-3">
@@ -111,7 +114,17 @@
         </section>
     </footer>
 
-
+<script>
+        function copyEmail() {
+            const tooltip = document.querySelector('.tooltip-custom');
+            navigator.clipboard.writeText('info@inspat.ru');
+            tooltip.textContent = 'скопировано';
+            
+            setTimeout(() => {
+                tooltip.textContent = 'копировать адрес';
+            }, 2000);
+        }
+</script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
