@@ -19,7 +19,7 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid p-0">
                     <div class="header-width-container">
-                        <a class="navbar-brand m-0" href="index.html"><img src="img/logo.svg" alt="logo.svg"></a>
+                        <a class="navbar-brand m-0" href="index.php"><img src="img/logo.svg" alt="logo.svg"></a>
                     </div>
 
                     <div class='d-flex buttons-wrap header-width-container order-lg-2'>
@@ -31,9 +31,9 @@
                     <div class="collapse row drop-menu navbar-collapse justify-content-center m-lg-0" id="navbarNavAltMarkup">
                         <div class="row flex-column mt-3 mt-lg-0 flex-lg-row p-0">
                             <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
-                                <a class="nav-link sp" href="projects.html">Проекты</a>
-                                <a class="nav-link mx-0 mx-lg-4 sp" href="about-us.html">О нас</a>
-                                <a class="nav-link sp" href="contacts.html">Связаться</a>
+                                <a class="nav-link sp" href="projects.php">Проекты</a>
+                                <a class="nav-link mx-0 mx-lg-4 sp" href="about-us.php">О нас</a>
+                                <a class="nav-link sp" href="contacts.php">Связаться</a>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
             <div class="container">
                 <div class="row">
                     <h2 class="h2 mb-5">Градостроительные решения и благоустройство</h2>
-                    <a href="cities-building-projects/project-cities-1.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="cities-building-projects/project-cities-1.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/cities-1-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -57,7 +57,7 @@
                             <p>ЮАО, Москва, Россия</p>
                         </div>
                     </a>
-                    <a href="cities-building-projects/project-cities-2.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="cities-building-projects/project-cities-2.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/cities-2-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -66,7 +66,7 @@
                             <p>СВАО, Москва, Россия</p>
                         </div>
                     </a>
-                    <a href="cities-building-projects/project-cities-3.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="cities-building-projects/project-cities-3.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/cities-3-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -75,7 +75,7 @@
                             <p>СВАО, Москва, Россия</p>
                         </div>
                     </a>
-                    <a href="cities-building-projects/project-cities-4.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="cities-building-projects/project-cities-4.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/cities-4-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -84,7 +84,7 @@
                             <p>Кронштадт, Санкт-Петербург, Россия</p>
                         </div>
                     </a>
-                    <a href="cities-building-projects/project-cities-5.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="cities-building-projects/project-cities-5.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/cities-5-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -93,7 +93,7 @@
                             <p>Смоленская область, г. Гагарин, Россия</p>
                         </div>
                     </a>
-                    <a href="cities-building-projects/project-cities-6.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="cities-building-projects/project-cities-6.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/cities-6-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -102,7 +102,7 @@
                             <p>Ленинградская область, Кингисеппский район, поселок Логи, Россия</p>
                         </div>
                     </a>
-                    <a href="cities-building-projects/project-cities-7.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="cities-building-projects/project-cities-7.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/cities-7-1.png" class="img-fluid zoom-image" alt="image-preview">
@@ -111,7 +111,7 @@
                             <p>Внуково, г. Москва, Россия</p>
                         </div>
                     </a>
-                    <a href="cities-building-projects/project-cities-8.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="cities-building-projects/project-cities-8.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/cities-8-1.png" class="img-fluid zoom-image" alt="image-preview">
@@ -132,9 +132,9 @@
 
                 
                 <div class="d-flex flex-column text-center flex-md-row justify-content-between small-title footer-wrap-container">
-                    <a class="sp" href="private-policy.html">Политика конфиденциальности</a>
+                    <a class="sp" href="private-policy.php">Политика конфиденциальности</a>
                     <a class="p-3 p-md-0">© 2025 Инспат. Все права защищены.</a>
-                    <a class="sp" href="legal-information.html">Правовая информация</a>
+                    <a class="sp" href="legal-information.php">Правовая информация</a>
                 </div>
                 
             </div>

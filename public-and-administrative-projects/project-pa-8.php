@@ -19,7 +19,7 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid p-0">
                     <div class="header-width-container">
-                        <a class="navbar-brand m-0" href="../index.html"><img src="../img/logo.svg" alt="logo.svg"></a>
+                        <a class="navbar-brand m-0" href="../index.php"><img src="../img/logo.svg" alt="logo.svg"></a>
                     </div>
 
                     <div class='d-flex buttons-wrap header-width-container order-lg-2'>
@@ -31,9 +31,9 @@
                     <div class="collapse row drop-menu navbar-collapse justify-content-center m-lg-0" id="navbarNavAltMarkup">
                         <div class="row flex-column mt-3 mt-lg-0 flex-lg-row p-0">
                             <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
-                                <a class="nav-link sp" href="../projects.html">Проекты</a>
-                                <a class="nav-link mx-0 mx-lg-4 sp" href="../about-us.html">О нас</a>
-                                <a class="nav-link sp" href="../contacts.html">Связаться</a>
+                                <a class="nav-link sp" href="../projects.php">Проекты</a>
+                                <a class="nav-link mx-0 mx-lg-4 sp" href="../about-us.php">О нас</a>
+                                <a class="nav-link sp" href="../contacts.php">Связаться</a>
                             </div>
                         </div>
                     </div>
@@ -110,9 +110,9 @@
 
                 
                 <div class="d-flex flex-column text-center flex-md-row justify-content-between small-title footer-wrap-container">
-                    <a class="sp" href="../private-policy.html">Политика конфиденциальности</a>
+                    <a class="sp" href="../private-policy.php">Политика конфиденциальности</a>
                     <a class="p-3 p-md-0">© 2025 Инспат. Все права защищены.</a>
-                    <a class="sp" href="../legal-information.html">Правовая информация</a>
+                    <a class="sp" href="../legal-information.php">Правовая информация</a>
                 </div>
                 
             </div>

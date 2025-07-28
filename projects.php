@@ -19,7 +19,7 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid p-0">
                     <div class="header-width-container">
-                        <a class="navbar-brand m-0" href="index.html"><img src="img/logo.svg" alt="logo.svg"></a>
+                        <a class="navbar-brand m-0" href="index.php"><img src="img/logo.svg" alt="logo.svg"></a>
                     </div>
 
                     <div class='d-flex buttons-wrap header-width-container order-lg-2'>
@@ -31,9 +31,9 @@
                     <div class="collapse row drop-menu navbar-collapse justify-content-center m-lg-0" id="navbarNavAltMarkup">
                         <div class="row flex-column mt-3 mt-lg-0 flex-lg-row p-0">
                             <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
-                                <a class="nav-link sp" href="projects.html">Проекты</a>
-                                <a class="nav-link mx-0 mx-lg-4 sp" href="about-us.html">О нас</a>
-                                <a class="nav-link sp" href="contacts.html">Связаться</a>
+                                <a class="nav-link sp" href="projects.php">Проекты</a>
+                                <a class="nav-link mx-0 mx-lg-4 sp" href="about-us.php">О нас</a>
+                                <a class="nav-link sp" href="contacts.php">Связаться</a>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                     <h2 class="h2 col-12 col-lg-6 mb-5">Наше портфолио</h2>
                     <div class="d-flex flex-column p-0">
                         <div class="projects-list-wrap">
-                            <a href="projects-list-public-and-administrative-buildings.html" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
+                            <a href="projects-list-public-and-administrative-buildings.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Общественные и административные здания</h4>
                                     <div class="see-more-btn-container">
@@ -60,7 +60,7 @@
                                     <img src="img/imgs-for-projects/live-1-1.jpg" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
                             </a>
-                            <a href="projects-list-living-buildings.html" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
+                            <a href="projects-list-living-buildings.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
                                 <div class=" col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Жилые здания</h4>
                                     <div class="see-more-btn-container">
@@ -71,7 +71,7 @@
                                     <img src="img/imgs-for-projects/living-5-1.png" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
                             </a>
-                            <a href="projects-list-medical-buildings.html" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
+                            <a href="projects-list-medical-buildings.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Медицинские и фармацевтические объекты</h4>
                                     <div class="see-more-btn-container">
@@ -83,7 +83,7 @@
                                 </div>
 
                             </a>
-                            <a href="projects-list-industrial-buildings.html" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
+                            <a href="projects-list-industrial-buildings.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Промышленные объекты</h4>
                                     <div class="see-more-btn-container">
@@ -95,7 +95,7 @@
                                 </div>
                                 
                             </a>
-                            <a href="projects-list-cities-buildings.html" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
+                            <a href="projects-list-cities-buildings.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Градостроительные решения и благоустройство</h4>
                                     <div class="see-more-btn-container">
@@ -106,7 +106,7 @@
                                     <img src="img/imgs-for-projects/cities-8-1.png" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
                             </a>
-                            <a href="projects-list-special-section.html" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
+                            <a href="projects-list-special-section.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Спецразделы</h4>
                                     <div class="see-more-btn-container">
@@ -117,7 +117,7 @@
                                     <img src="img/special-section.png" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
                             </a>
-                            <a href="projects-list-clean-buildings.html" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
+                            <a href="projects-list-clean-buildings.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
                                 <div class="col-12 col-sm-7 mb-sm-0 mb-4">
                                     <h4 class="h4 mb-4">Чистые помещения</h4>
                                     <div class="see-more-btn-container">
@@ -142,9 +142,9 @@
 
                 
                 <div class="d-flex flex-column text-center flex-md-row justify-content-between small-title footer-wrap-container">
-                    <a class="sp" href="private-policy.html">Политика конфиденциальности</a>
+                    <a class="sp" href="private-policy.php">Политика конфиденциальности</a>
                     <a class="p-3 p-md-0">© 2025 Инспат. Все права защищены.</a>
-                    <a class="sp" href="legal-information.html">Правовая информация</a>
+                    <a class="sp" href="legal-information.php">Правовая информация</a>
                 </div>
                 
             </div>

@@ -19,7 +19,7 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid p-0">
                     <div class="header-width-container">
-                        <a class="navbar-brand m-0" href="index.html"><img src="img/logo.svg" alt="logo.svg"></a>
+                        <a class="navbar-brand m-0" href="index.php"><img src="img/logo.svg" alt="logo.svg"></a>
                     </div>
 
                     <div class='d-flex buttons-wrap header-width-container order-lg-2'>
@@ -31,9 +31,9 @@
                     <div class="collapse row drop-menu navbar-collapse justify-content-center m-lg-0" id="navbarNavAltMarkup">
                         <div class="row flex-column mt-3 mt-lg-0 flex-lg-row p-0">
                             <div class="navbar-nav  p-0 col d-flex text-center justify-content-center">
-                                <a class="nav-link sp" href="projects.html">Проекты</a>
-                                <a class="nav-link mx-0 mx-lg-4 sp" href="about-us.html">О нас</a>
-                                <a class="nav-link sp" href="contacts.html">Связаться</a>
+                                <a class="nav-link sp" href="projects.php">Проекты</a>
+                                <a class="nav-link mx-0 mx-lg-4 sp" href="about-us.php">О нас</a>
+                                <a class="nav-link sp" href="contacts.php">Связаться</a>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
             <div class="container">
                 <div class="row">
                     <h2 class="h2 mb-5">Общественные и административные здания</h2>
-                    <a href="public-and-administrative-projects/project-pa-1.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-1.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-1-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -57,8 +57,8 @@
                             <p>ул. Новый Арбат вл. 2, ЦАО, Москва, Россия</p>
                         </div>
                     </a>
-                    <!-- не забудь ссылку вместо project.page.html, в каждую карточку вставь ссылку на соответствующую страницу, и обязательно засунь страницы проектов каждых категорий по своим папкам (я их создал), а то дохуя файлов будет в корневой папке и так. и удали этот комент)))) -->
-                    <a href="public-and-administrative-projects/project-pa-2.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <!-- не забудь ссылку вместо project.page.php, в каждую карточку вставь ссылку на соответствующую страницу, и обязательно засунь страницы проектов каждых категорий по своим папкам (я их создал), а то дохуя файлов будет в корневой папке и так. и удали этот комент)))) -->
+                    <a href="public-and-administrative-projects/project-pa-2.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-2-1.png" class="img-fluid zoom-image" alt="image-preview">
@@ -67,7 +67,7 @@
                             <p>Московская область</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-3.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-3.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-3-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -76,7 +76,7 @@
                             <p>ул. Новоалексеевская вл. 16, СВАО, Москва, Россия</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-4.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-4.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-4-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -85,7 +85,7 @@
                             <p>ул. Грузинский Вал, Москва, Россия</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-5.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-5.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-5-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -94,7 +94,7 @@
                             <p>ЮАО, территория ЗИЛ-Юг, Москва, Россия</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-6.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-6.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-6-1.png" class="img-fluid zoom-image" alt="image-preview">
@@ -103,7 +103,7 @@
                             <p>поселок Нарынка, Московская обл., Россия</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-7.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-7.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-7-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -112,7 +112,7 @@
                             <p>ул. Херсонская, Санкт-Петербург, Россия</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-8.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-8.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-8-1.png" class="img-fluid zoom-image" alt="image-preview">
@@ -121,7 +121,7 @@
                             <p>Санкт-Петербург, Россия</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-9.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-9.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-9-1.png" class="img-fluid zoom-image" alt="image-preview">
@@ -130,7 +130,7 @@
                             <p>Москва, Россия</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-10.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-10.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-10-1.png" class="img-fluid zoom-image" alt="image-preview">
@@ -139,7 +139,7 @@
                             <p>Москва, Россия</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-11.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-11.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-11-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -148,7 +148,7 @@
                             <p>Санкт-Петербург, Россия</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-12.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-12.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-12-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -157,7 +157,7 @@
                             <p>ул. Любви, г. Екатеринбург, Россия</p>
                         </div>
                     </a>
-                    <a href="public-and-administrative-projects/project-pa-13.html" class="col-lg-4 col-sm-6 mb-4 col-12">
+                    <a href="public-and-administrative-projects/project-pa-13.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/live-13-1.jpg" class="img-fluid zoom-image" alt="image-preview">
@@ -178,9 +178,9 @@
 
                 
                 <div class="d-flex flex-column text-center flex-md-row justify-content-between small-title footer-wrap-container">
-                    <a class="sp" href="private-policy.html">Политика конфиденциальности</a>
+                    <a class="sp" href="private-policy.php">Политика конфиденциальности</a>
                     <a class="p-3 p-md-0">© 2025 Инспат. Все права защищены.</a>
-                    <a class="sp" href="legal-information.html">Правовая информация</a>
+                    <a class="sp" href="legal-information.php">Правовая информация</a>
                 </div>
                 
             </div>
