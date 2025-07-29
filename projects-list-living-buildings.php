@@ -51,7 +51,7 @@
                     <a href="living-building-projects/project-living-1.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/living-1-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/living-1-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЖК«ОКТЯБРЬСКАЯ»</h6>
                             <p>Марьина Роща, СВАО, Москва, Россия</p>
@@ -60,7 +60,7 @@
                     <a href="living-building-projects/project-living-2.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/living-2-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/living-2-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЖК «ПУЛКОВСКИЙ ДОМ»</h6>
                             <p>Пулковское, поселок Шушары, Санкт-Петербург, Россия</p>
@@ -69,7 +69,7 @@
                     <a href="living-building-projects/project-living-3.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/living-3-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/living-3-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЖИЛОЙ ОСТРОВ «NAGATINO I-LAND»</h6>
                             <p>пр-кт Андропова, ЮАО, Москва, Россия</p>
@@ -78,7 +78,7 @@
                     <a href="living-building-projects/project-living-4.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/living-4-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/living-4-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">РАЗВИТИЕ ТЕРРИТОРИИ «ЗИЛ-ЮГ»</h6>
                             <p>ул. Автозаводская, ЮАО, Москва, Россия</p>
@@ -87,7 +87,7 @@
                     <a href="living-building-projects/project-living-5.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/living-5-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/living-5-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЖК «НОРМАНДИЯ»</h6>
                             <p>Москва, Россия</p>
@@ -96,7 +96,7 @@
                     <a href="living-building-projects/project-living-6.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/living-6-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/living-6-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЖК «МОЛОДЕЖНЫЙ»</h6>
                             <p>Санкт-Петербург, Россия</p>
@@ -105,7 +105,7 @@
                     <a href="living-building-projects/project-living-7.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/living-7-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/living-7-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЖК «ИЗУМРУДНЫЕ ХОЛМЫ»</h6>
                             <p>Красногорское, Россия</p>

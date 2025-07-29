@@ -51,7 +51,7 @@
                     <a href="industrial-building-projects/project-industrial-1.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/industrial-1-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/industrial-1-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЛОГИСТИЧЕСКИЙ КОМПЛЕКС</h6>
                             <p>Липецк, Россия</p>
@@ -60,7 +60,7 @@
                     <a href="industrial-building-projects/project-industrial-2.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/industrial-2-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/industrial-2-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЛАБОРАТОРНЫЙ КОМПЛЕКС</h6>
                             <p>Багратионовск, Калининградская область, Россия</p>
@@ -69,7 +69,7 @@
                     <a href="industrial-building-projects/project-industrial-3.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/industrial-3-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/industrial-3-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЗАВОД ПОЛИГРАФИЧЕСКИХ КРАСОК</h6>
                             <p>территория индустриального парка Калужской области, Россия</p>
@@ -78,7 +78,7 @@
                     <a href="industrial-building-projects/project-industrial-4.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/industrial-4-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/industrial-4-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ШВЕЙНАЯ ФАБРИКА СПОРТИВНОЙ ОДЕЖДЫ</h6>
                             <p>г. Калуга, Россия</p>
@@ -87,7 +87,7 @@
                     <a href="industrial-building-projects/project-industrial-5.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/industrial-5-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/industrial-5-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">КОРПУС КРАШ-ТЕСТ ЦЕНТРА</h6>
                             <p>г. Кельн, Германия</p>

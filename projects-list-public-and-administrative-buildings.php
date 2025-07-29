@@ -51,7 +51,7 @@
                     <a href="public-and-administrative-projects/project-pa-1.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-1-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-1-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ГОСТИНИЦА С КВАРТИРАМИ</h6>
                             <p>ул. Новый Арбат вл. 2, ЦАО, Москва, Россия</p>
@@ -61,7 +61,7 @@
                     <a href="public-and-administrative-projects/project-pa-2.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-2-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-2-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ГОСТИНИЧНЫЙ КОМПЛЕКС НА 120 НОМЕРОВ</h6>
                             <p>Московская область</p>
@@ -70,7 +70,7 @@
                     <a href="public-and-administrative-projects/project-pa-3.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-3-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-3-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">РЕКОНСТРУКЦИЯ ОБЩЕСТВЕННОГО ЗДАНИЯ</h6>
                             <p>ул. Новоалексеевская вл. 16, СВАО, Москва, Россия</p>
@@ -79,7 +79,7 @@
                     <a href="public-and-administrative-projects/project-pa-4.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-4-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-4-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ОФИСНЫЙ КОМПЛЕКС АО «Т-БАНК»</h6>
                             <p>ул. Грузинский Вал, Москва, Россия</p>
@@ -88,7 +88,7 @@
                     <a href="public-and-administrative-projects/project-pa-5.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-5-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-5-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ДОУ НА 270 МЕСТ</h6>
                             <p>ЮАО, территория ЗИЛ-Юг, Москва, Россия</p>
@@ -97,7 +97,7 @@
                     <a href="public-and-administrative-projects/project-pa-6.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-6-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-6-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЭКО-ОТЕЛЬ «ИЗУМРУДНЫЙ ЛЕС»<h6>
                             <p>поселок Нарынка, Московская обл., Россия</p>
@@ -106,7 +106,7 @@
                     <a href="public-and-administrative-projects/project-pa-7.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-7-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-7-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">АПАРТ-ОТЕЛЬ<h6>
                             <p>ул. Херсонская, Санкт-Петербург, Россия</p>
@@ -115,7 +115,7 @@
                     <a href="public-and-administrative-projects/project-pa-8.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-8-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-8-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">КУЛЬТУРНЫЙ ЦЕНТР «МАКСИМ»<h6>
                             <p>Санкт-Петербург, Россия</p>
@@ -124,7 +124,7 @@
                     <a href="public-and-administrative-projects/project-pa-9.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-9-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-9-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">УЧЕБНЫЙ ЦЕНТР «ФОЛЬКСВАГЕН»<h6>
                             <p>Москва, Россия</p>
@@ -133,7 +133,7 @@
                     <a href="public-and-administrative-projects/project-pa-10.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-10-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-10-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ДИЛЕРСКОЕ ПРЕДПРИЯТИЕ AUDI<h6>
                             <p>Москва, Россия</p>
@@ -142,7 +142,7 @@
                     <a href="public-and-administrative-projects/project-pa-11.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-11-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-11-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ПАРКИНГ «АЭРОПОРТ СИТИ»<h6>
                             <p>Санкт-Петербург, Россия</p>
@@ -151,7 +151,7 @@
                     <a href="public-and-administrative-projects/project-pa-12.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-12-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-12-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ПРОЕКТНЫЙ ОФИС АО ГК «ЭТАЛОН»<h6>
                             <p>ул. Любви, г. Екатеринбург, Россия</p>
@@ -160,7 +160,7 @@
                     <a href="public-and-administrative-projects/project-pa-13.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-13-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-13-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ГОСТИНИЦА НА 106 МЕСТ<h6>
                             <p>Ленинградская область, Россия</p>

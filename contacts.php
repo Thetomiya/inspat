@@ -1,11 +1,49 @@
+<?php
+// Обработка формы на этой же странице
+$success = false;
+$error = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Защита от спам-ботов
+    if (!empty($_POST['website'])) {
+        $error = 'Ошибка отправки';
+    } else {
+        // Получение данных
+        $name = strip_tags(trim($_POST['username'] ?? ''));
+        $email = filter_var(trim($_POST['email'] ?? ''), FILTER_SANITIZE_EMAIL);
+        $question = strip_tags(trim($_POST['question'] ?? ''));
+        
+        // Валидация
+        $errors = [];
+        if (empty($name)) $errors[] = "Укажите имя";
+        if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) $errors[] = "Некорректный email";
+        if (empty($question)) $errors[] = "Напишите вопрос";
+        
+        if (empty($errors)) {
+            // Отправка письма
+            $to = "inspat_site@inspat.ru";
+            $subject = "Новый вопрос с сайта";
+            $message = "Имя: $name\nEmail: $email\n\nВопрос:\n$question";
+            $headers = "From: $email\r\n";
+            $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+            
+            if (mail($to, $subject, $message, $headers)) {
+                $success = true;
+            } else {
+                $error = "Ошибка при отправке";
+            }
+        } else {
+            $error = implode("<br>", $errors);
+        }
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Связаться</title>
-    <meta name="description" content="Свяжитесь с архитектурным бюро Инспат для обсуждения вашего проекта. Контактная информация и форма обратной связи.">
-    <meta name="keywords" content="Инспат, контакты, связаться, архитектурное бюро, заказать проект, консультация">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,6 +83,16 @@
 <main>
     <section class="page-block">
         <div class="container">
+            <?php if ($success): ?>
+                <div class="alert alert-success text-center">
+                    Спасибо! Ваше сообщение отправлено.
+                </div>
+            <?php elseif ($error): ?>
+                <div class="alert alert-danger text-center">
+                    <?= $error ?>
+                </div>
+            <?php endif; ?>
+            
             <div class="row">
                 <div class="col-sm-6 col-md-8 col-12">
                     <h2 class="h2 col-12 col-lg-6 mb-5">Связаться с нами</h2>
@@ -57,7 +105,7 @@
                         </div>
                         <div class="d-flex align-items-center mb-4">
                             <img src="img/phone-ico.svg" alt="mail-ico" class="me-3">
-                            <span>+7 812 989-80-13</span>
+                            <span><u>+7 812 989-80-13</u></span>
                         </div>
                         <div class="d-flex align-items-center mb-4">
                             <img src="img/location-ico.svg" alt="mail-ico" class="me-3">
@@ -66,29 +114,31 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-12">
-                    <form action="#" method="post">
+                    <form method="post">
+                        <!-- Скрытое поле для защиты от спама -->
+                        <div style="position: absolute; left: -9999px;">
+                            <label for="website">Не заполняйте это поле</label>
+                            <input type="text" name="website" id="website">
+                        </div>
+                        
                         <div class="d-flex flex-column">
                             <div class="mb-4">
                                 <label for="name">Имя</label>
-                                <input type="text" id="username" name="username" class="form-control contact-form-input">
+                                <input type="text" id="username" name="username" class="form-control contact-form-input" 
+                                       value="<?= isset($_POST['username']) ? htmlspecialchars($_POST['username']) : '' ?>" required>
                             </div>
                             <div class="mb-4">
                                 <label for="email">Email</label>
-                                <input type="email" id="email" name="email" class="form-control contact-form-input">
+                                <input type="email" id="email" name="email" class="form-control contact-form-input"
+                                       value="<?= isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '' ?>" required>
                             </div>
                             <div class="mb-4">
                                 <label for="question">Вопрос</label>
-                                <textarea id="question" name="question" placeholder="Напишите свой вопрос" rows="7"class="form-control contact-form-input"></textarea>
-                            </div>
-                            <div class="mb-4">
-                                <div class="d-flex">
-                                    <input type="checkbox" id="agreement" name="agreement" class="me-2 contact-form-checkbox">
-                                    <label for="agreement">Даю своё согласие на <a class="sp" href="private-policy.php">обработку персональных данных</a></label>
-                                </div>
+                                <textarea id="question" name="question" placeholder="Напишите свой вопрос" rows="7" 
+                                          class="form-control contact-form-input" required><?= isset($_POST['question']) ? htmlspecialchars($_POST['question']) : '' ?></textarea>
                             </div>
                             <div>
                                 <button type="submit" class="hero-btn-primary hero-btn-primary-black">Написать</button>
-                                
                             </div>
                         </div>
                     </form>
@@ -96,10 +146,9 @@
             </div>
         </div>
     </section>
-
 </main>
 
-    <footer>
+<footer>
         <section class="footer-block">
             <div class="container">
 
@@ -114,6 +163,15 @@
         </section>
     </footer>
 
+<script src="js/bootstrap.min.js"></script>
+<script>
+// Блокировка кнопки при отправке
+document.querySelector('form').addEventListener('submit', function() {
+    const btn = this.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Отправка...';
+});
+</script>
 <script>
         function copyEmail() {
             const tooltip = document.querySelector('.tooltip-custom');
@@ -125,6 +183,5 @@
             }, 2000);
         }
 </script>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

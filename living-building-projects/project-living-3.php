@@ -43,7 +43,7 @@
     </header>
     <main>
 
-        <section class="project-page-hero" style="background-image: url('../img/imgs-for-projects/living-3-1.png');">
+        <section class="project-page-hero" style="background-image: url('../img/imgs-for-projects/living-3-1.webp');">
         </section>
 
         <section class="project-page-hero-comment">
@@ -96,7 +96,7 @@
                             - Рабочая документация разделов: ОВиК, ЭОМ.</p>
                     </div>
                     <div class="img-container col-12 col-xxl-7 mx-end">
-                        <img src="../img/imgs-for-projects/living-3-1.png" class="project-page-block-img zoom-image">
+                        <img src="../img/imgs-for-projects/living-3-1.webp" class="project-page-block-img zoom-image">
                     </div>
                 </div>
             </div>

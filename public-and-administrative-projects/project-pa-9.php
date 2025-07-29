@@ -43,7 +43,7 @@
     </header>
     <main>
 
-        <section class="project-page-hero" style="background-image: url('../img/imgs-for-projects/live-9-1.png');">
+        <section class="project-page-hero" style="background-image: url('../img/imgs-for-projects/live-9-1.webp');">
         </section>
 
         <section class="project-page-hero-comment">
@@ -102,13 +102,13 @@
                     <p class="p-title text-center mb-5">Посмотрите на этапы и финальные результаты проекта.</p>
                     <div class="project-gallery-container row">
                         <div class="img-container mx-auto col-12 col-sm-7 col-lg-4">
-                            <img src="../img/imgs-for-projects/live-9-1.png" class="gallery-image img-fluid zoom-image" alt="gallery-img">
+                            <img src="../img/imgs-for-projects/live-9-1.webp" class="gallery-image img-fluid zoom-image" alt="gallery-img">
                         </div>
                         <div class="img-container my-lg-0 my-4 mx-auto col-12 col-sm-7 col-lg-4">
-                            <img src="../img/imgs-for-projects/live-9-2.png" class="gallery-image img-fluid zoom-image" alt="gallery-img">
+                            <img src="../img/imgs-for-projects/live-9-2.webp" class="gallery-image img-fluid zoom-image" alt="gallery-img">
                         </div>
                         <div class="img-container mx-auto col-12 col-sm-7 col-lg-4">
-                            <img src="../img/imgs-for-projects/live-9-3.png" class="gallery-image img-fluid zoom-image" alt="gallery-img">
+                            <img src="../img/imgs-for-projects/live-9-3.webp" class="gallery-image img-fluid zoom-image" alt="gallery-img">
                         </div>
                     </div>
                 </div>

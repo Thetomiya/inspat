@@ -51,7 +51,7 @@
                     <a href="cities-building-projects/project-cities-1.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/cities-1-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/cities-1-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЖК «НАГАТИНО»</h6>
                             <p>ЮАО, Москва, Россия</p>
@@ -60,7 +60,7 @@
                     <a href="cities-building-projects/project-cities-2.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/cities-2-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/cities-2-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЖК «НОРМАНДИЯ»</h6>
                             <p>СВАО, Москва, Россия</p>
@@ -69,7 +69,7 @@
                     <a href="cities-building-projects/project-cities-3.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/cities-3-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/cities-3-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЖК «СЕРЕБРЯННЫЙ ФОНТАН»</h6>
                             <p>СВАО, Москва, Россия</p>
@@ -78,7 +78,7 @@
                     <a href="cities-building-projects/project-cities-4.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/cities-4-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/cities-4-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ПАРК «ОСТРОВ ФОРТОВ»</h6>
                             <p>Кронштадт, Санкт-Петербург, Россия</p>
@@ -87,7 +87,7 @@
                     <a href="cities-building-projects/project-cities-5.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/cities-5-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/cities-5-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ПАРК «ЧЕЛОВЕК ВО ВСЕЛЕННОЙ»</h6>
                             <p>Смоленская область, г. Гагарин, Россия</p>
@@ -96,7 +96,7 @@
                     <a href="cities-building-projects/project-cities-6.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/cities-6-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/cities-6-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">КРТ ПОСЁЛКА ЛОГИ</h6>
                             <p>Ленинградская область, Кингисеппский район, поселок Логи, Россия</p>
@@ -105,7 +105,7 @@
                     <a href="cities-building-projects/project-cities-7.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/cities-7-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/cities-7-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ТОРГОВЫЙ ПАРК SKYCITY</h6>
                             <p>Внуково, г. Москва, Россия</p>
@@ -114,7 +114,7 @@
                     <a href="cities-building-projects/project-cities-8.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/cities-8-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/cities-8-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">МФЦ РУБЛЕВО-АРХАНГЕЛЬСКОЕ</h6>
                             <p>Рублёво-Архангельское, г. Москва, Россия</p>

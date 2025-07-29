@@ -43,7 +43,7 @@
     </header>
     <main>
 
-       <section class="project-page-hero" style="background-image: url('img/about_us1.jpg');">
+       <section class="project-page-hero" style="background-image: url('img/about_us1.webp');">
         </section>
 
        
@@ -119,7 +119,7 @@
                        </div>
                     </div>
                     <div class="img-container col-12 col-xxl-7 mx-end">
-                        <img src="img/about_us2.jpg" class="project-page-block-img zoom-image">
+                        <img src="img/about_us2.webp" class="project-page-block-img zoom-image">
                     </div>
                 </div>
                 
@@ -188,7 +188,7 @@
                     </div>
                     
                     <div class="img-container col-12 col-xxl-7 mx-end">
-                        <img src="img/imgs-for-projects/test-project-img-1.jpg" class="project-page-block-img">
+                        <img src="img/imgs-for-projects/test-project-img-1.webp" class="project-page-block-img">
                     </div>
                 </div>
                 

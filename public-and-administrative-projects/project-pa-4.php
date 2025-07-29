@@ -43,7 +43,7 @@
     </header>
     <main>
 
-        <section class="project-page-hero" style="background-image: url('../img/imgs-for-projects/live-4-1.jpg');">
+        <section class="project-page-hero" style="background-image: url('../img/imgs-for-projects/live-4-1.webp');">
         </section>
 
         <section class="project-page-hero-comment">

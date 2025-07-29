@@ -43,7 +43,7 @@
     </header>
     <main>
 
-        <section class="project-page-hero" style="background-image: url('img/clean-b2.jpg');">
+        <section class="project-page-hero" style="background-image: url('img/clean-b2.webp');">
         </section>
 
         <section class="project-page-hero-comment">
@@ -80,7 +80,7 @@
                             От того, насколько качественно будет произведено проектирование, зависит работа предприятия на протяжении всего срока его эксплуатации. Стандарты ISO и GMP являются мощным инструментом контроля качества. Их соблюдение позволяет создавать уникальные производственные сооружения, отвечающие самым строгим технологическим требованиям.</p>
                     </div>
                     <div class="img-container col-12 col-xxl-7 mx-end">
-                        <img src="img/clean-b2.jpg" class="project-page-block-img zoom-image">
+                        <img src="img/clean-b2.webp" class="project-page-block-img zoom-image">
                     </div>
                 </div>
             </div>
@@ -94,13 +94,13 @@
                     <div class="project-gallery-container row ">
                         <a href="articles/article-1.php" class="img-container mx-auto mb-3 mb-lg-0 col-12 col-sm-7 col-lg-6">
                             <div class="onimage-wrap">
-                                <img src="img/clean-b4.jpg" class="gallery-image img-fluid zoom-image" alt="gallery-img">
+                                <img src="img/clean-b4.webp" class="gallery-image img-fluid zoom-image" alt="gallery-img">
                                 <p class="h5 onimage-text"><font color="#fff"> Чистые помещения по стандарту ISO</font></p>
                             </div>
                         </a>
                         <a href="articles/article-2.php" class="img-container mx-auto col-12 col-sm-7 col-lg-6">
                             <div class="onimage-wrap">
-                                <img src="img/clean-b3.jpg" class="gallery-image img-fluid zoom-image" alt="gallery-img">
+                                <img src="img/clean-b3.webp" class="gallery-image img-fluid zoom-image" alt="gallery-img">
                                 <p class="h5 onimage-text"><font color="#fff"> Чистые зоны: классификация GMP</font></p>
                             </div>
                         </a>

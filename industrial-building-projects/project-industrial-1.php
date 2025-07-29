@@ -43,7 +43,7 @@
     </header>
     <main>
 
-        <section class="project-page-hero" style="background-image: url('../img/imgs-for-projects/industrial-1-1.png');">
+        <section class="project-page-hero" style="background-image: url('../img/imgs-for-projects/industrial-1-1.webp');">
         </section>
 
         <section class="project-page-hero-comment">
@@ -99,7 +99,7 @@
                         </p>
                     </div>
                     <div class="img-container col-12 col-xxl-7 mx-end">
-                        <img src="../img/imgs-for-projects/industrial-1-2.png" class="project-page-block-img zoom-image">
+                        <img src="../img/imgs-for-projects/industrial-1-2.webp" class="project-page-block-img zoom-image">
                     </div>
                 </div>
             </div>

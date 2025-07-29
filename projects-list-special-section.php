@@ -43,7 +43,7 @@
     </header>
     <main>
 
-        <section class="project-page-hero" style="background-image: url('img/special-section.png');">
+        <section class="project-page-hero" style="background-image: url('img/special-section.webp');">
         </section>
 
         <section class="project-page-hero-comment">
@@ -155,7 +155,7 @@
                     </section></p>
                     </div>
                     <div class="img-container col-12 col-xxl-7 mx-end">
-                        <img src="img/special-section.png" class="project-page-block-img zoom-image">
+                        <img src="img/special-section.webp" class="project-page-block-img zoom-image">
                     </div>
                 </div>
             </div>

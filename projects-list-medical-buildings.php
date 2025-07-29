@@ -51,7 +51,7 @@
                     <a href="medical-building-projects/project-medical-1.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/medical-1-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/medical-1-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ДЕТСКАЯ ПОЛИКЛИНИКА</h6>
                             <p>терр. Пулковское, пос. Шушары, Санкт-Петербург, Россия</p>
@@ -60,7 +60,7 @@
                     <a href="medical-building-projects/project-medical-2.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/medical-2-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/medical-2-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЗАВОД ПО ПРОИЗВОДСТВУ ЛЕКАРСТВ</h6>
                             <p>Краснодарский край, Россия</p>
@@ -69,7 +69,7 @@
                     <a href="medical-building-projects/project-medical-3.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/medical-3-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/medical-3-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">КЛИНИКА ПЕРВИЧНОГО ПРИЕМА</h6>
                             <p>Москва, Россия</p>
@@ -78,7 +78,7 @@
                     <a href="medical-building-projects/project-medical-4.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/medical-4-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/medical-4-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ДЕТСКАЯ РЕАНИМАЦИЯ И ТЕРАПИЯ</h6>
                             <p>Москва, Россия</p>
@@ -87,7 +87,7 @@
                     <a href="medical-building-projects/project-medical-5.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/medical-5-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/medical-5-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">КЛИНИКА ПОКРЫШКИНА</h6>
                             <p>ул. Покрышкина д.7, Москва, Россия</p>
@@ -96,7 +96,7 @@
                     <a href="medical-building-projects/project-medical-6.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/medical-6-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/medical-6-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ЦЕХ ПРОИЗВОДСТВА РЕАГЕНТОВ</h6>
                             <p>Московская область, Россия</p>
@@ -105,7 +105,7 @@
                     <a href="medical-building-projects/project-medical-7.php" class="col-lg-4 col-sm-6 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/medical-7-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/medical-7-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 mb-2 mt-4 sp4">ФАРМАЦЕВТИЧЕСКАЯ ФАБРИКА</h6>
                             <p>Ярославль, Россия</p>

@@ -6,6 +6,7 @@
     <title>Инспат</title>
     <meta name="description" content="Инспат - архитектурное бюро, создающее вдохновляющие пространства для жилых, коммерческих и промышленных объектов. Высокое качество и креативность в каждом проекте.">
     <meta name="keywords" content="Инспат, архитектурное бюро, проектирование, жилые здания, коммерческие объекты, промышленные объекты, градостроительные решения, спецразделы">
+    <meta name="google-site-verification" content="ZZ9eKsAUGifZGCPCuW60vESeBEgWfCRM2t52KDdX5_8" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,13 +49,13 @@
         <div class="carousel-inner">
             <!-- Слайды -->
             <div class="carousel-item active">
-                <div class="carousel-image" style="background-image: url('img/imgs-for-projects/living-6-1.png')"></div>
+                <div class="carousel-image" style="background-image: url('img/imgs-for-projects/living-6-1.webp')"></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image" style="background-image: url('img/imgs-for-projects/medical-2-1.jpg')"></div>
+                <div class="carousel-image" style="background-image: url('img/imgs-for-projects/medical-2-1.webp')"></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image" style="background-image: url('img/imgs-for-projects/industrial-4-1.jpg')"></div>
+                <div class="carousel-image" style="background-image: url('img/imgs-for-projects/industrial-4-1.webp')"></div>
             </div>
         </div>
     </div>
@@ -79,7 +80,7 @@
 <!--                    <p class="p-title">Наше бюро имеет обширный опыт проектирования жилых, коммерческих и сложных промышленных объектов. Мы применяем инновационные подходы и стремимся к выдающимся результатам, учитывая уникальные запросы каждого клиента.</p>-->
 <!--                </div>-->
 <!--                <div class="img-container col-12 col-lg-8">-->
-<!--                    <img src="img/temp-img.png" class="page-block-img zoom-image">-->
+<!--                    <img src="img/temp-img.webp" class="page-block-img zoom-image">-->
 <!--                </div>-->
 <!--            </div>-->
 <!--        </section>-->
@@ -96,7 +97,7 @@
                     <div class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12 sp4">
                         <a href="projects-list-public-and-administrative-buildings.php" class="project-card-preview ">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/live-1-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/live-1-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 my-4 sp4">Общественные и административные здания</h6>
                         </a>
@@ -104,7 +105,7 @@
                     <div class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <a href="projects-list-living-buildings.php" class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/living-5-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/living-5-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 my-4 sp4">Жилые здания</h6>
                         </a>
@@ -112,7 +113,7 @@
                     <div class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <a href="projects-list-medical-buildings.php" class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/medical-2-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/medical-2-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 my-4 sp4">Медицинские и фармацевтические объекты</h6>
                         </a>
@@ -120,7 +121,7 @@
                     <div class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <a href="projects-list-industrial-buildings.php" class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/industrial-4-1.jpg" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/industrial-4-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 my-4 sp4">Промышленные объекты</h6>
                         </a>
@@ -128,7 +129,7 @@
                     <a href="projects-list-cities-buildings.php" class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/imgs-for-projects/cities-8-1.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/imgs-for-projects/cities-8-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 my-4 sp4">Градостроительные решения </h6>
 <!--                            и благоустройства-->
@@ -137,7 +138,7 @@
                     <a href="projects-list-special-section.php" class="col-lg-4 col-sm-6 mb-md-0 mb-4 col-12">
                         <div class="project-card-preview">
                             <div class="img-container">
-                                <img src="img/special-section.png" class="img-fluid zoom-image" alt="image-preview">
+                                <img src="img/special-section.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
                             <h6 class="h6 my-4 sp4">Спецразделы</h6>
                         </div>
@@ -268,10 +269,10 @@
                             <h6 class="h6 mb-4">"Сделали все быстро и со вкусом, порадовали отличным качеством предоставленные чертежи и рендеры"</h6>
                         </div>
                         <div class="review-user d-flex align-items-center">
-                            <img src="img/avatar-1.png" alt="user-avatar">
+                            <img src="img/avatar-1.webp" alt="user-avatar">
                             <div class="d-flex flex-column ms-3">
-                                <span class="mb-0"><b>Пабло Эскобар</b></span>
-                                <span>Заместитель конгресса Колумбии</span>
+                                <span class="mb-0"><b>Клаудия Кардинале</b></span>
+                                <span>Профессиональная актриса</span>
                             </div>
                         </div>
                     </div>
@@ -287,7 +288,7 @@
                             <h6 class="h6 mb-4">"Никогда не думал, что мои мечты о доме возможно воплотить в реальность!"</h6>
                         </div>
                         <div class="review-user d-flex align-items-center">
-                            <img src="img/avatar-2.png" alt="user-avatar">
+                            <img src="img/avatar-2.webp" alt="user-avatar">
                             <div class="d-flex flex-column ms-3">
                                 <span class="mb-0"><b>Сатоши Накамото</b></span>
                                 <span>Bitcoin Developer</span>

@@ -206,12 +206,12 @@
                         </section></p>
                     </div>
 <!--                    <div class="img-container col-12 col-xxl-5 mx-end">-->
-<!--                        <img src="../img/imgs-for-projects/test-project-img-1.jpg" class="project-page-block-img">-->
+<!--                        <img src="../img/imgs-for-projects/test-project-img-1.webp" class="project-page-block-img">-->
 <!--                    </div>-->
                 </div>
 <!--                <div class="row">-->
 <!--                    <div class="img-container col-12 col-xxl-5 mx-end">-->
-<!--                        <img src="../img/imgs-for-projects/test-project-img-1.jpg" class="project-page-block-img">-->
+<!--                        <img src="../img/imgs-for-projects/test-project-img-1.webp" class="project-page-block-img">-->
 <!--                    </div>-->
 <!--                    <div class="me-0 col-12 col-xxl-5 pe-lg-4">-->
 <!--                        <h2 class="h2">Описание проекта</h2>-->

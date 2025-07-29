@@ -43,7 +43,7 @@
     </header>
     <main>
 
-        <section class="project-page-hero" style="background-image: url('../img/imgs-for-projects/living-4-1.jpg');">
+        <section class="project-page-hero" style="background-image: url('../img/imgs-for-projects/living-4-1.webp');">
         </section>
 
         <section class="project-page-hero-comment">
@@ -105,7 +105,7 @@
                             Проект комплексной застройки разрабатывается с соблюдением всех потребностей пользователей для комфортной жизни и учитывая концепцию 15-минутного города, создавая формат «город в городе».</p>
                     </div>
                     <div class="img-container col-12 col-xxl-7 mx-end">
-                        <img src="../img/imgs-for-projects/living-4-2.jpg" class="project-page-block-img zoom-image">
+                        <img src="../img/imgs-for-projects/living-4-2.webp" class="project-page-block-img zoom-image">
                     </div>
                 </div>
             </div>
@@ -118,13 +118,13 @@
                     <p class="p-title text-center mb-5">Посмотрите на этапы и финальные результаты проекта.</p>
                     <div class="project-gallery-container row">
                         <div class="img-container mx-auto col-12 col-sm-7 col-lg-4">
-                            <img src="../img/imgs-for-projects/living-4-2.jpg" class="gallery-image img-fluid zoom-image" alt="gallery-img">
+                            <img src="../img/imgs-for-projects/living-4-2.webp" class="gallery-image img-fluid zoom-image" alt="gallery-img">
                         </div>
                         <div class="img-container my-lg-0 my-4 mx-auto col-12 col-sm-7 col-lg-4">
-                            <img src="../img/imgs-for-projects/living-4-3.jpg" class="gallery-image img-fluid zoom-image" alt="gallery-img">
+                            <img src="../img/imgs-for-projects/living-4-3.webp" class="gallery-image img-fluid zoom-image" alt="gallery-img">
                         </div>
                         <div class="img-container mx-auto col-12 col-sm-7 col-lg-4">
-                            <img src="../img/imgs-for-projects/living-4-4.jpg" class="gallery-image img-fluid zoom-image" alt="gallery-img">
+                            <img src="../img/imgs-for-projects/living-4-4.webp" class="gallery-image img-fluid zoom-image" alt="gallery-img">
                         </div>
                     </div>
                 </div>

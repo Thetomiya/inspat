@@ -57,7 +57,7 @@
                                     </div>
                                 </div>
                                 <div class="img-container col-12 col-sm-5">
-                                    <img src="img/imgs-for-projects/live-1-1.jpg" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
+                                    <img src="img/imgs-for-projects/live-1-1.webp" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
                             </a>
                             <a href="projects-list-living-buildings.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
@@ -68,7 +68,7 @@
                                     </div>
                                 </div>
                                 <div class="img-container col-12 col-sm-5">
-                                    <img src="img/imgs-for-projects/living-5-1.png" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
+                                    <img src="img/imgs-for-projects/living-5-1.webp" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
                             </a>
                             <a href="projects-list-medical-buildings.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
@@ -79,7 +79,7 @@
                                     </div>
                                 </div>
                                 <div class="img-container col-12 col-sm-5">
-                                    <img src="img/imgs-for-projects/medical-2-1.jpg" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
+                                    <img src="img/imgs-for-projects/medical-2-1.webp" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
 
                             </a>
@@ -91,7 +91,7 @@
                                     </div>
                                 </div>
                                 <div class="img-container col-12 col-sm-5">
-                                    <img src="img/imgs-for-projects/industrial-4-1.jpg" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
+                                    <img src="img/imgs-for-projects/industrial-4-1.webp" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
                                 
                             </a>
@@ -103,7 +103,7 @@
                                     </div>
                                 </div>
                                 <div class="img-container col-12 col-sm-5">
-                                    <img src="img/imgs-for-projects/cities-8-1.png" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
+                                    <img src="img/imgs-for-projects/cities-8-1.webp" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
                             </a>
                             <a href="projects-list-special-section.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
@@ -114,7 +114,7 @@
                                     </div>
                                 </div>
                                 <div class="img-container col-12 col-sm-5">
-                                    <img src="img/special-section.png" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
+                                    <img src="img/special-section.webp" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
                             </a>
                             <a href="projects-list-clean-buildings.php" class="project-card-preview project-wrap d-flex align-items-center justify-content-between row">
@@ -125,7 +125,7 @@
                                     </div>
                                 </div>
                                 <div class="img-container col-12 col-sm-5">
-                                    <img src="img/clean-buildings.png" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
+                                    <img src="img/clean-buildings.webp" alt="cities-building-section" class="projects-list-img img-fluid zoom-image">
                                 </div>
                             </a>
                         </div>
