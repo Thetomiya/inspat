@@ -53,7 +53,7 @@
                             <div class="img-container">
                                 <img src="img/imgs-for-projects/living-1-1.webp" class="img-fluid zoom-image" alt="image-preview">
                             </div>
-                            <h6 class="h6 mb-2 mt-4 sp4">ЖК«ОКТЯБРЬСКАЯ»</h6>
+                            <h6 class="h6 mb-2 mt-4 sp4">ЖК «ОКТЯБРЬСКАЯ, вл. 103»</h6>
                             <p>Марьина Роща, СВАО, Москва, Россия</p>
                         </div>
                     </a>
