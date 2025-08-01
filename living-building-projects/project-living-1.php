@@ -114,7 +114,7 @@
                 
                 <div class="d-flex flex-column text-center flex-md-row justify-content-between small-title footer-wrap-container">
                     <a class="sp" href="../private-policy.php">Политика конфиденциальности</a>
-                    <a class="p-3 p-md-0">© 2025 Инспат. Все права защищены.</a>
+                    <a class="p-3 p-md-0">© 2025 ИНСПАТ. Все права защищены.</a>
                     <a class="sp" href="../legal-information.php">Правовая информация</a>
                 </div>
                 
